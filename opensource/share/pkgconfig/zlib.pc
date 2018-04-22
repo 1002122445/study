@@ -1,0 +1,13 @@
+prefix=/home/study/proj/opensource
+exec_prefix=/home/study/proj/opensource
+libdir=/home/study/proj/opensource/lib
+sharedlibdir=/home/study/proj/opensource/lib
+includedir=/home/study/proj/opensource/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
