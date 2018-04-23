@@ -1,8 +1,8 @@
-# Install script for directory: /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck
+# Install script for directory: /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/proj/opensource")
+  set(CMAKE_INSTALL_PREFIX "/home/project/study/opensource")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/cmake_install.cmake")
 
 endif()
 

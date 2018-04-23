@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # Utility rule file for ExperimentalCoverage.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
 include CMakeFiles/ExperimentalCoverage.dir/progress.make
 
 CMakeFiles/ExperimentalCoverage:
-	/home/proj/opensource/bin/ctest -D ExperimentalCoverage
+	/home/project/study/opensource/bin/ctest -D ExperimentalCoverage
 
 ExperimentalCoverage: CMakeFiles/ExperimentalCoverage
 ExperimentalCoverage: CMakeFiles/ExperimentalCoverage.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/ExperimentalCoverage.dir/clean:
 .PHONY : CMakeFiles/ExperimentalCoverage.dir/clean
 
 CMakeFiles/ExperimentalCoverage.dir/depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalCoverage.dir/depend
 

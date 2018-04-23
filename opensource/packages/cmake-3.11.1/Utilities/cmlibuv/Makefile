@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -127,7 +127,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/proj/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/project/study/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/CMakeFiles/progress.marks
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/CMakeFiles/progress.marks
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/clean
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/rule:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/rule
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/rule
 .PHONY : Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ cmlibuv: Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/rule
 
 # fast build rule for target.
 cmlibuv/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build
 .PHONY : cmlibuv/fast
 
 src/fs-poll.o: src/fs-poll.c.o
@@ -210,7 +210,7 @@ src/fs-poll.o: src/fs-poll.c.o
 
 # target to build an object file
 src/fs-poll.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/fs-poll.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/fs-poll.c.o
 .PHONY : src/fs-poll.c.o
 
 src/fs-poll.i: src/fs-poll.c.i
@@ -219,7 +219,7 @@ src/fs-poll.i: src/fs-poll.c.i
 
 # target to preprocess a source file
 src/fs-poll.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/fs-poll.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/fs-poll.c.i
 .PHONY : src/fs-poll.c.i
 
 src/fs-poll.s: src/fs-poll.c.s
@@ -228,7 +228,7 @@ src/fs-poll.s: src/fs-poll.c.s
 
 # target to generate assembly for a file
 src/fs-poll.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/fs-poll.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/fs-poll.c.s
 .PHONY : src/fs-poll.c.s
 
 src/inet.o: src/inet.c.o
@@ -237,7 +237,7 @@ src/inet.o: src/inet.c.o
 
 # target to build an object file
 src/inet.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/inet.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/inet.c.o
 .PHONY : src/inet.c.o
 
 src/inet.i: src/inet.c.i
@@ -246,7 +246,7 @@ src/inet.i: src/inet.c.i
 
 # target to preprocess a source file
 src/inet.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/inet.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/inet.c.i
 .PHONY : src/inet.c.i
 
 src/inet.s: src/inet.c.s
@@ -255,7 +255,7 @@ src/inet.s: src/inet.c.s
 
 # target to generate assembly for a file
 src/inet.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/inet.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/inet.c.s
 .PHONY : src/inet.c.s
 
 src/threadpool.o: src/threadpool.c.o
@@ -264,7 +264,7 @@ src/threadpool.o: src/threadpool.c.o
 
 # target to build an object file
 src/threadpool.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/threadpool.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/threadpool.c.o
 .PHONY : src/threadpool.c.o
 
 src/threadpool.i: src/threadpool.c.i
@@ -273,7 +273,7 @@ src/threadpool.i: src/threadpool.c.i
 
 # target to preprocess a source file
 src/threadpool.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/threadpool.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/threadpool.c.i
 .PHONY : src/threadpool.c.i
 
 src/threadpool.s: src/threadpool.c.s
@@ -282,7 +282,7 @@ src/threadpool.s: src/threadpool.c.s
 
 # target to generate assembly for a file
 src/threadpool.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/threadpool.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/threadpool.c.s
 .PHONY : src/threadpool.c.s
 
 src/unix/async.o: src/unix/async.c.o
@@ -291,7 +291,7 @@ src/unix/async.o: src/unix/async.c.o
 
 # target to build an object file
 src/unix/async.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/async.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/async.c.o
 .PHONY : src/unix/async.c.o
 
 src/unix/async.i: src/unix/async.c.i
@@ -300,7 +300,7 @@ src/unix/async.i: src/unix/async.c.i
 
 # target to preprocess a source file
 src/unix/async.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/async.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/async.c.i
 .PHONY : src/unix/async.c.i
 
 src/unix/async.s: src/unix/async.c.s
@@ -309,7 +309,7 @@ src/unix/async.s: src/unix/async.c.s
 
 # target to generate assembly for a file
 src/unix/async.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/async.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/async.c.s
 .PHONY : src/unix/async.c.s
 
 src/unix/core.o: src/unix/core.c.o
@@ -318,7 +318,7 @@ src/unix/core.o: src/unix/core.c.o
 
 # target to build an object file
 src/unix/core.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/core.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/core.c.o
 .PHONY : src/unix/core.c.o
 
 src/unix/core.i: src/unix/core.c.i
@@ -327,7 +327,7 @@ src/unix/core.i: src/unix/core.c.i
 
 # target to preprocess a source file
 src/unix/core.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/core.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/core.c.i
 .PHONY : src/unix/core.c.i
 
 src/unix/core.s: src/unix/core.c.s
@@ -336,7 +336,7 @@ src/unix/core.s: src/unix/core.c.s
 
 # target to generate assembly for a file
 src/unix/core.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/core.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/core.c.s
 .PHONY : src/unix/core.c.s
 
 src/unix/dl.o: src/unix/dl.c.o
@@ -345,7 +345,7 @@ src/unix/dl.o: src/unix/dl.c.o
 
 # target to build an object file
 src/unix/dl.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/dl.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/dl.c.o
 .PHONY : src/unix/dl.c.o
 
 src/unix/dl.i: src/unix/dl.c.i
@@ -354,7 +354,7 @@ src/unix/dl.i: src/unix/dl.c.i
 
 # target to preprocess a source file
 src/unix/dl.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/dl.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/dl.c.i
 .PHONY : src/unix/dl.c.i
 
 src/unix/dl.s: src/unix/dl.c.s
@@ -363,7 +363,7 @@ src/unix/dl.s: src/unix/dl.c.s
 
 # target to generate assembly for a file
 src/unix/dl.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/dl.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/dl.c.s
 .PHONY : src/unix/dl.c.s
 
 src/unix/fs.o: src/unix/fs.c.o
@@ -372,7 +372,7 @@ src/unix/fs.o: src/unix/fs.c.o
 
 # target to build an object file
 src/unix/fs.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/fs.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/fs.c.o
 .PHONY : src/unix/fs.c.o
 
 src/unix/fs.i: src/unix/fs.c.i
@@ -381,7 +381,7 @@ src/unix/fs.i: src/unix/fs.c.i
 
 # target to preprocess a source file
 src/unix/fs.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/fs.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/fs.c.i
 .PHONY : src/unix/fs.c.i
 
 src/unix/fs.s: src/unix/fs.c.s
@@ -390,7 +390,7 @@ src/unix/fs.s: src/unix/fs.c.s
 
 # target to generate assembly for a file
 src/unix/fs.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/fs.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/fs.c.s
 .PHONY : src/unix/fs.c.s
 
 src/unix/getaddrinfo.o: src/unix/getaddrinfo.c.o
@@ -399,7 +399,7 @@ src/unix/getaddrinfo.o: src/unix/getaddrinfo.c.o
 
 # target to build an object file
 src/unix/getaddrinfo.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getaddrinfo.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getaddrinfo.c.o
 .PHONY : src/unix/getaddrinfo.c.o
 
 src/unix/getaddrinfo.i: src/unix/getaddrinfo.c.i
@@ -408,7 +408,7 @@ src/unix/getaddrinfo.i: src/unix/getaddrinfo.c.i
 
 # target to preprocess a source file
 src/unix/getaddrinfo.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getaddrinfo.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getaddrinfo.c.i
 .PHONY : src/unix/getaddrinfo.c.i
 
 src/unix/getaddrinfo.s: src/unix/getaddrinfo.c.s
@@ -417,7 +417,7 @@ src/unix/getaddrinfo.s: src/unix/getaddrinfo.c.s
 
 # target to generate assembly for a file
 src/unix/getaddrinfo.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getaddrinfo.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getaddrinfo.c.s
 .PHONY : src/unix/getaddrinfo.c.s
 
 src/unix/getnameinfo.o: src/unix/getnameinfo.c.o
@@ -426,7 +426,7 @@ src/unix/getnameinfo.o: src/unix/getnameinfo.c.o
 
 # target to build an object file
 src/unix/getnameinfo.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getnameinfo.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getnameinfo.c.o
 .PHONY : src/unix/getnameinfo.c.o
 
 src/unix/getnameinfo.i: src/unix/getnameinfo.c.i
@@ -435,7 +435,7 @@ src/unix/getnameinfo.i: src/unix/getnameinfo.c.i
 
 # target to preprocess a source file
 src/unix/getnameinfo.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getnameinfo.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getnameinfo.c.i
 .PHONY : src/unix/getnameinfo.c.i
 
 src/unix/getnameinfo.s: src/unix/getnameinfo.c.s
@@ -444,7 +444,7 @@ src/unix/getnameinfo.s: src/unix/getnameinfo.c.s
 
 # target to generate assembly for a file
 src/unix/getnameinfo.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getnameinfo.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/getnameinfo.c.s
 .PHONY : src/unix/getnameinfo.c.s
 
 src/unix/linux-core.o: src/unix/linux-core.c.o
@@ -453,7 +453,7 @@ src/unix/linux-core.o: src/unix/linux-core.c.o
 
 # target to build an object file
 src/unix/linux-core.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-core.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-core.c.o
 .PHONY : src/unix/linux-core.c.o
 
 src/unix/linux-core.i: src/unix/linux-core.c.i
@@ -462,7 +462,7 @@ src/unix/linux-core.i: src/unix/linux-core.c.i
 
 # target to preprocess a source file
 src/unix/linux-core.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-core.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-core.c.i
 .PHONY : src/unix/linux-core.c.i
 
 src/unix/linux-core.s: src/unix/linux-core.c.s
@@ -471,7 +471,7 @@ src/unix/linux-core.s: src/unix/linux-core.c.s
 
 # target to generate assembly for a file
 src/unix/linux-core.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-core.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-core.c.s
 .PHONY : src/unix/linux-core.c.s
 
 src/unix/linux-inotify.o: src/unix/linux-inotify.c.o
@@ -480,7 +480,7 @@ src/unix/linux-inotify.o: src/unix/linux-inotify.c.o
 
 # target to build an object file
 src/unix/linux-inotify.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-inotify.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-inotify.c.o
 .PHONY : src/unix/linux-inotify.c.o
 
 src/unix/linux-inotify.i: src/unix/linux-inotify.c.i
@@ -489,7 +489,7 @@ src/unix/linux-inotify.i: src/unix/linux-inotify.c.i
 
 # target to preprocess a source file
 src/unix/linux-inotify.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-inotify.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-inotify.c.i
 .PHONY : src/unix/linux-inotify.c.i
 
 src/unix/linux-inotify.s: src/unix/linux-inotify.c.s
@@ -498,7 +498,7 @@ src/unix/linux-inotify.s: src/unix/linux-inotify.c.s
 
 # target to generate assembly for a file
 src/unix/linux-inotify.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-inotify.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-inotify.c.s
 .PHONY : src/unix/linux-inotify.c.s
 
 src/unix/linux-syscalls.o: src/unix/linux-syscalls.c.o
@@ -507,7 +507,7 @@ src/unix/linux-syscalls.o: src/unix/linux-syscalls.c.o
 
 # target to build an object file
 src/unix/linux-syscalls.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-syscalls.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-syscalls.c.o
 .PHONY : src/unix/linux-syscalls.c.o
 
 src/unix/linux-syscalls.i: src/unix/linux-syscalls.c.i
@@ -516,7 +516,7 @@ src/unix/linux-syscalls.i: src/unix/linux-syscalls.c.i
 
 # target to preprocess a source file
 src/unix/linux-syscalls.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-syscalls.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-syscalls.c.i
 .PHONY : src/unix/linux-syscalls.c.i
 
 src/unix/linux-syscalls.s: src/unix/linux-syscalls.c.s
@@ -525,7 +525,7 @@ src/unix/linux-syscalls.s: src/unix/linux-syscalls.c.s
 
 # target to generate assembly for a file
 src/unix/linux-syscalls.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-syscalls.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/linux-syscalls.c.s
 .PHONY : src/unix/linux-syscalls.c.s
 
 src/unix/loop-watcher.o: src/unix/loop-watcher.c.o
@@ -534,7 +534,7 @@ src/unix/loop-watcher.o: src/unix/loop-watcher.c.o
 
 # target to build an object file
 src/unix/loop-watcher.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop-watcher.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop-watcher.c.o
 .PHONY : src/unix/loop-watcher.c.o
 
 src/unix/loop-watcher.i: src/unix/loop-watcher.c.i
@@ -543,7 +543,7 @@ src/unix/loop-watcher.i: src/unix/loop-watcher.c.i
 
 # target to preprocess a source file
 src/unix/loop-watcher.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop-watcher.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop-watcher.c.i
 .PHONY : src/unix/loop-watcher.c.i
 
 src/unix/loop-watcher.s: src/unix/loop-watcher.c.s
@@ -552,7 +552,7 @@ src/unix/loop-watcher.s: src/unix/loop-watcher.c.s
 
 # target to generate assembly for a file
 src/unix/loop-watcher.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop-watcher.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop-watcher.c.s
 .PHONY : src/unix/loop-watcher.c.s
 
 src/unix/loop.o: src/unix/loop.c.o
@@ -561,7 +561,7 @@ src/unix/loop.o: src/unix/loop.c.o
 
 # target to build an object file
 src/unix/loop.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop.c.o
 .PHONY : src/unix/loop.c.o
 
 src/unix/loop.i: src/unix/loop.c.i
@@ -570,7 +570,7 @@ src/unix/loop.i: src/unix/loop.c.i
 
 # target to preprocess a source file
 src/unix/loop.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop.c.i
 .PHONY : src/unix/loop.c.i
 
 src/unix/loop.s: src/unix/loop.c.s
@@ -579,7 +579,7 @@ src/unix/loop.s: src/unix/loop.c.s
 
 # target to generate assembly for a file
 src/unix/loop.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/loop.c.s
 .PHONY : src/unix/loop.c.s
 
 src/unix/pipe.o: src/unix/pipe.c.o
@@ -588,7 +588,7 @@ src/unix/pipe.o: src/unix/pipe.c.o
 
 # target to build an object file
 src/unix/pipe.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/pipe.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/pipe.c.o
 .PHONY : src/unix/pipe.c.o
 
 src/unix/pipe.i: src/unix/pipe.c.i
@@ -597,7 +597,7 @@ src/unix/pipe.i: src/unix/pipe.c.i
 
 # target to preprocess a source file
 src/unix/pipe.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/pipe.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/pipe.c.i
 .PHONY : src/unix/pipe.c.i
 
 src/unix/pipe.s: src/unix/pipe.c.s
@@ -606,7 +606,7 @@ src/unix/pipe.s: src/unix/pipe.c.s
 
 # target to generate assembly for a file
 src/unix/pipe.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/pipe.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/pipe.c.s
 .PHONY : src/unix/pipe.c.s
 
 src/unix/poll.o: src/unix/poll.c.o
@@ -615,7 +615,7 @@ src/unix/poll.o: src/unix/poll.c.o
 
 # target to build an object file
 src/unix/poll.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/poll.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/poll.c.o
 .PHONY : src/unix/poll.c.o
 
 src/unix/poll.i: src/unix/poll.c.i
@@ -624,7 +624,7 @@ src/unix/poll.i: src/unix/poll.c.i
 
 # target to preprocess a source file
 src/unix/poll.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/poll.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/poll.c.i
 .PHONY : src/unix/poll.c.i
 
 src/unix/poll.s: src/unix/poll.c.s
@@ -633,7 +633,7 @@ src/unix/poll.s: src/unix/poll.c.s
 
 # target to generate assembly for a file
 src/unix/poll.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/poll.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/poll.c.s
 .PHONY : src/unix/poll.c.s
 
 src/unix/process.o: src/unix/process.c.o
@@ -642,7 +642,7 @@ src/unix/process.o: src/unix/process.c.o
 
 # target to build an object file
 src/unix/process.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/process.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/process.c.o
 .PHONY : src/unix/process.c.o
 
 src/unix/process.i: src/unix/process.c.i
@@ -651,7 +651,7 @@ src/unix/process.i: src/unix/process.c.i
 
 # target to preprocess a source file
 src/unix/process.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/process.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/process.c.i
 .PHONY : src/unix/process.c.i
 
 src/unix/process.s: src/unix/process.c.s
@@ -660,7 +660,7 @@ src/unix/process.s: src/unix/process.c.s
 
 # target to generate assembly for a file
 src/unix/process.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/process.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/process.c.s
 .PHONY : src/unix/process.c.s
 
 src/unix/procfs-exepath.o: src/unix/procfs-exepath.c.o
@@ -669,7 +669,7 @@ src/unix/procfs-exepath.o: src/unix/procfs-exepath.c.o
 
 # target to build an object file
 src/unix/procfs-exepath.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/procfs-exepath.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/procfs-exepath.c.o
 .PHONY : src/unix/procfs-exepath.c.o
 
 src/unix/procfs-exepath.i: src/unix/procfs-exepath.c.i
@@ -678,7 +678,7 @@ src/unix/procfs-exepath.i: src/unix/procfs-exepath.c.i
 
 # target to preprocess a source file
 src/unix/procfs-exepath.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/procfs-exepath.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/procfs-exepath.c.i
 .PHONY : src/unix/procfs-exepath.c.i
 
 src/unix/procfs-exepath.s: src/unix/procfs-exepath.c.s
@@ -687,7 +687,7 @@ src/unix/procfs-exepath.s: src/unix/procfs-exepath.c.s
 
 # target to generate assembly for a file
 src/unix/procfs-exepath.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/procfs-exepath.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/procfs-exepath.c.s
 .PHONY : src/unix/procfs-exepath.c.s
 
 src/unix/proctitle.o: src/unix/proctitle.c.o
@@ -696,7 +696,7 @@ src/unix/proctitle.o: src/unix/proctitle.c.o
 
 # target to build an object file
 src/unix/proctitle.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/proctitle.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/proctitle.c.o
 .PHONY : src/unix/proctitle.c.o
 
 src/unix/proctitle.i: src/unix/proctitle.c.i
@@ -705,7 +705,7 @@ src/unix/proctitle.i: src/unix/proctitle.c.i
 
 # target to preprocess a source file
 src/unix/proctitle.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/proctitle.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/proctitle.c.i
 .PHONY : src/unix/proctitle.c.i
 
 src/unix/proctitle.s: src/unix/proctitle.c.s
@@ -714,7 +714,7 @@ src/unix/proctitle.s: src/unix/proctitle.c.s
 
 # target to generate assembly for a file
 src/unix/proctitle.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/proctitle.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/proctitle.c.s
 .PHONY : src/unix/proctitle.c.s
 
 src/unix/signal.o: src/unix/signal.c.o
@@ -723,7 +723,7 @@ src/unix/signal.o: src/unix/signal.c.o
 
 # target to build an object file
 src/unix/signal.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/signal.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/signal.c.o
 .PHONY : src/unix/signal.c.o
 
 src/unix/signal.i: src/unix/signal.c.i
@@ -732,7 +732,7 @@ src/unix/signal.i: src/unix/signal.c.i
 
 # target to preprocess a source file
 src/unix/signal.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/signal.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/signal.c.i
 .PHONY : src/unix/signal.c.i
 
 src/unix/signal.s: src/unix/signal.c.s
@@ -741,7 +741,7 @@ src/unix/signal.s: src/unix/signal.c.s
 
 # target to generate assembly for a file
 src/unix/signal.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/signal.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/signal.c.s
 .PHONY : src/unix/signal.c.s
 
 src/unix/stream.o: src/unix/stream.c.o
@@ -750,7 +750,7 @@ src/unix/stream.o: src/unix/stream.c.o
 
 # target to build an object file
 src/unix/stream.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/stream.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/stream.c.o
 .PHONY : src/unix/stream.c.o
 
 src/unix/stream.i: src/unix/stream.c.i
@@ -759,7 +759,7 @@ src/unix/stream.i: src/unix/stream.c.i
 
 # target to preprocess a source file
 src/unix/stream.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/stream.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/stream.c.i
 .PHONY : src/unix/stream.c.i
 
 src/unix/stream.s: src/unix/stream.c.s
@@ -768,7 +768,7 @@ src/unix/stream.s: src/unix/stream.c.s
 
 # target to generate assembly for a file
 src/unix/stream.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/stream.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/stream.c.s
 .PHONY : src/unix/stream.c.s
 
 src/unix/sysinfo-loadavg.o: src/unix/sysinfo-loadavg.c.o
@@ -777,7 +777,7 @@ src/unix/sysinfo-loadavg.o: src/unix/sysinfo-loadavg.c.o
 
 # target to build an object file
 src/unix/sysinfo-loadavg.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-loadavg.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-loadavg.c.o
 .PHONY : src/unix/sysinfo-loadavg.c.o
 
 src/unix/sysinfo-loadavg.i: src/unix/sysinfo-loadavg.c.i
@@ -786,7 +786,7 @@ src/unix/sysinfo-loadavg.i: src/unix/sysinfo-loadavg.c.i
 
 # target to preprocess a source file
 src/unix/sysinfo-loadavg.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-loadavg.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-loadavg.c.i
 .PHONY : src/unix/sysinfo-loadavg.c.i
 
 src/unix/sysinfo-loadavg.s: src/unix/sysinfo-loadavg.c.s
@@ -795,7 +795,7 @@ src/unix/sysinfo-loadavg.s: src/unix/sysinfo-loadavg.c.s
 
 # target to generate assembly for a file
 src/unix/sysinfo-loadavg.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-loadavg.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-loadavg.c.s
 .PHONY : src/unix/sysinfo-loadavg.c.s
 
 src/unix/sysinfo-memory.o: src/unix/sysinfo-memory.c.o
@@ -804,7 +804,7 @@ src/unix/sysinfo-memory.o: src/unix/sysinfo-memory.c.o
 
 # target to build an object file
 src/unix/sysinfo-memory.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-memory.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-memory.c.o
 .PHONY : src/unix/sysinfo-memory.c.o
 
 src/unix/sysinfo-memory.i: src/unix/sysinfo-memory.c.i
@@ -813,7 +813,7 @@ src/unix/sysinfo-memory.i: src/unix/sysinfo-memory.c.i
 
 # target to preprocess a source file
 src/unix/sysinfo-memory.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-memory.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-memory.c.i
 .PHONY : src/unix/sysinfo-memory.c.i
 
 src/unix/sysinfo-memory.s: src/unix/sysinfo-memory.c.s
@@ -822,7 +822,7 @@ src/unix/sysinfo-memory.s: src/unix/sysinfo-memory.c.s
 
 # target to generate assembly for a file
 src/unix/sysinfo-memory.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-memory.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/sysinfo-memory.c.s
 .PHONY : src/unix/sysinfo-memory.c.s
 
 src/unix/tcp.o: src/unix/tcp.c.o
@@ -831,7 +831,7 @@ src/unix/tcp.o: src/unix/tcp.c.o
 
 # target to build an object file
 src/unix/tcp.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tcp.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tcp.c.o
 .PHONY : src/unix/tcp.c.o
 
 src/unix/tcp.i: src/unix/tcp.c.i
@@ -840,7 +840,7 @@ src/unix/tcp.i: src/unix/tcp.c.i
 
 # target to preprocess a source file
 src/unix/tcp.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tcp.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tcp.c.i
 .PHONY : src/unix/tcp.c.i
 
 src/unix/tcp.s: src/unix/tcp.c.s
@@ -849,7 +849,7 @@ src/unix/tcp.s: src/unix/tcp.c.s
 
 # target to generate assembly for a file
 src/unix/tcp.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tcp.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tcp.c.s
 .PHONY : src/unix/tcp.c.s
 
 src/unix/thread.o: src/unix/thread.c.o
@@ -858,7 +858,7 @@ src/unix/thread.o: src/unix/thread.c.o
 
 # target to build an object file
 src/unix/thread.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/thread.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/thread.c.o
 .PHONY : src/unix/thread.c.o
 
 src/unix/thread.i: src/unix/thread.c.i
@@ -867,7 +867,7 @@ src/unix/thread.i: src/unix/thread.c.i
 
 # target to preprocess a source file
 src/unix/thread.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/thread.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/thread.c.i
 .PHONY : src/unix/thread.c.i
 
 src/unix/thread.s: src/unix/thread.c.s
@@ -876,7 +876,7 @@ src/unix/thread.s: src/unix/thread.c.s
 
 # target to generate assembly for a file
 src/unix/thread.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/thread.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/thread.c.s
 .PHONY : src/unix/thread.c.s
 
 src/unix/timer.o: src/unix/timer.c.o
@@ -885,7 +885,7 @@ src/unix/timer.o: src/unix/timer.c.o
 
 # target to build an object file
 src/unix/timer.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/timer.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/timer.c.o
 .PHONY : src/unix/timer.c.o
 
 src/unix/timer.i: src/unix/timer.c.i
@@ -894,7 +894,7 @@ src/unix/timer.i: src/unix/timer.c.i
 
 # target to preprocess a source file
 src/unix/timer.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/timer.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/timer.c.i
 .PHONY : src/unix/timer.c.i
 
 src/unix/timer.s: src/unix/timer.c.s
@@ -903,7 +903,7 @@ src/unix/timer.s: src/unix/timer.c.s
 
 # target to generate assembly for a file
 src/unix/timer.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/timer.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/timer.c.s
 .PHONY : src/unix/timer.c.s
 
 src/unix/tty.o: src/unix/tty.c.o
@@ -912,7 +912,7 @@ src/unix/tty.o: src/unix/tty.c.o
 
 # target to build an object file
 src/unix/tty.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tty.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tty.c.o
 .PHONY : src/unix/tty.c.o
 
 src/unix/tty.i: src/unix/tty.c.i
@@ -921,7 +921,7 @@ src/unix/tty.i: src/unix/tty.c.i
 
 # target to preprocess a source file
 src/unix/tty.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tty.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tty.c.i
 .PHONY : src/unix/tty.c.i
 
 src/unix/tty.s: src/unix/tty.c.s
@@ -930,7 +930,7 @@ src/unix/tty.s: src/unix/tty.c.s
 
 # target to generate assembly for a file
 src/unix/tty.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tty.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/tty.c.s
 .PHONY : src/unix/tty.c.s
 
 src/unix/udp.o: src/unix/udp.c.o
@@ -939,7 +939,7 @@ src/unix/udp.o: src/unix/udp.c.o
 
 # target to build an object file
 src/unix/udp.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/udp.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/udp.c.o
 .PHONY : src/unix/udp.c.o
 
 src/unix/udp.i: src/unix/udp.c.i
@@ -948,7 +948,7 @@ src/unix/udp.i: src/unix/udp.c.i
 
 # target to preprocess a source file
 src/unix/udp.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/udp.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/udp.c.i
 .PHONY : src/unix/udp.c.i
 
 src/unix/udp.s: src/unix/udp.c.s
@@ -957,7 +957,7 @@ src/unix/udp.s: src/unix/udp.c.s
 
 # target to generate assembly for a file
 src/unix/udp.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/udp.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/unix/udp.c.s
 .PHONY : src/unix/udp.c.s
 
 src/uv-common.o: src/uv-common.c.o
@@ -966,7 +966,7 @@ src/uv-common.o: src/uv-common.c.o
 
 # target to build an object file
 src/uv-common.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-common.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-common.c.o
 .PHONY : src/uv-common.c.o
 
 src/uv-common.i: src/uv-common.c.i
@@ -975,7 +975,7 @@ src/uv-common.i: src/uv-common.c.i
 
 # target to preprocess a source file
 src/uv-common.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-common.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-common.c.i
 .PHONY : src/uv-common.c.i
 
 src/uv-common.s: src/uv-common.c.s
@@ -984,7 +984,7 @@ src/uv-common.s: src/uv-common.c.s
 
 # target to generate assembly for a file
 src/uv-common.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-common.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-common.c.s
 .PHONY : src/uv-common.c.s
 
 src/uv-data-getter-setters.o: src/uv-data-getter-setters.c.o
@@ -993,7 +993,7 @@ src/uv-data-getter-setters.o: src/uv-data-getter-setters.c.o
 
 # target to build an object file
 src/uv-data-getter-setters.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-data-getter-setters.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-data-getter-setters.c.o
 .PHONY : src/uv-data-getter-setters.c.o
 
 src/uv-data-getter-setters.i: src/uv-data-getter-setters.c.i
@@ -1002,7 +1002,7 @@ src/uv-data-getter-setters.i: src/uv-data-getter-setters.c.i
 
 # target to preprocess a source file
 src/uv-data-getter-setters.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-data-getter-setters.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-data-getter-setters.c.i
 .PHONY : src/uv-data-getter-setters.c.i
 
 src/uv-data-getter-setters.s: src/uv-data-getter-setters.c.s
@@ -1011,7 +1011,7 @@ src/uv-data-getter-setters.s: src/uv-data-getter-setters.c.s
 
 # target to generate assembly for a file
 src/uv-data-getter-setters.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-data-getter-setters.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/uv-data-getter-setters.c.s
 .PHONY : src/uv-data-getter-setters.c.s
 
 src/version.o: src/version.c.o
@@ -1020,7 +1020,7 @@ src/version.o: src/version.c.o
 
 # target to build an object file
 src/version.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/version.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/version.c.o
 .PHONY : src/version.c.o
 
 src/version.i: src/version.c.i
@@ -1029,7 +1029,7 @@ src/version.i: src/version.c.i
 
 # target to preprocess a source file
 src/version.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/version.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/version.c.i
 .PHONY : src/version.c.i
 
 src/version.s: src/version.c.s
@@ -1038,7 +1038,7 @@ src/version.s: src/version.c.s
 
 # target to generate assembly for a file
 src/version.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/version.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/build.make Utilities/cmlibuv/CMakeFiles/cmlibuv.dir/src/version.c.s
 .PHONY : src/version.c.s
 
 # Help Target
@@ -1161,6 +1161,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

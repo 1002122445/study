@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: ^([ 	]*[#%][ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<cmsys/%>
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/ConsoleBuf.hxx.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/ConsoleBuf.hxx.in
 @KWSYS_NAMESPACE@/Configure.hxx
 -
 @KWSYS_NAMESPACE@/Encoding.hxx
@@ -28,7 +28,7 @@ windows.h
 system_error
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Encoding.hxx.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Encoding.hxx.in
 @KWSYS_NAMESPACE@/Configure.hxx
 -
 string
@@ -36,29 +36,29 @@ string
 vector
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
 cmsys/Directory.hxx
 -
 cmsys/std/vector
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/testConsoleBuf.hxx
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/testConsoleBuf.hxx
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/testConsoleBufChild.cxx
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/testConsoleBufChild.cxx
 kwsysPrivate.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
 cmsys/ConsoleBuf.hxx
 -
 cmsys/Encoding.hxx
 -
 ConsoleBuf.hxx.in
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/ConsoleBuf.hxx.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/ConsoleBuf.hxx.in
 Encoding.hxx.in
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Encoding.hxx.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Encoding.hxx.in
 iostream
 -
 testConsoleBuf.hxx
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/testConsoleBuf.hxx
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/testConsoleBuf.hxx
 
 Source/cmsys/Configure.h
 

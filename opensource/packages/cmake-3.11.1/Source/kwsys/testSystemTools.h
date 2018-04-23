@@ -3,10 +3,10 @@
 #ifndef cmsys_testSystemtools_h
 #define cmsys_testSystemtools_h
 
-#define EXECUTABLE_OUTPUT_PATH "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys"
+#define EXECUTABLE_OUTPUT_PATH "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys"
 
-#define TEST_SYSTEMTOOLS_SOURCE_DIR "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys"
-#define TEST_SYSTEMTOOLS_BINARY_DIR "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys"
+#define TEST_SYSTEMTOOLS_SOURCE_DIR "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys"
+#define TEST_SYSTEMTOOLS_BINARY_DIR "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys"
 /* #undef KWSYS_TEST_SYSTEMTOOLS_LONG_PATHS */
 
 #endif

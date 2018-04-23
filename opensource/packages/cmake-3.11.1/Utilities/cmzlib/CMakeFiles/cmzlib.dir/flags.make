@@ -6,5 +6,5 @@ C_FLAGS =  -w   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/proj/opensource/packages/cmake-3.11.1/Utilities -I/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmzlib -I/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmzlib/.. 
+C_INCLUDES = -I/home/project/study/opensource/packages/cmake-3.11.1/Utilities -I/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmzlib -I/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmzlib/.. 
 

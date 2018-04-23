@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # Include any dependencies generated for this target.
 include Utilities/cmcompress/CMakeFiles/cmcompress.dir/depend.make
@@ -59,16 +59,16 @@ include Utilities/cmcompress/CMakeFiles/cmcompress.dir/flags.make
 
 Utilities/cmcompress/CMakeFiles/cmcompress.dir/cmcompress.c.o: Utilities/cmcompress/CMakeFiles/cmcompress.dir/flags.make
 Utilities/cmcompress/CMakeFiles/cmcompress.dir/cmcompress.c.o: Utilities/cmcompress/cmcompress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Utilities/cmcompress/CMakeFiles/cmcompress.dir/cmcompress.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmcompress.dir/cmcompress.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress/cmcompress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Utilities/cmcompress/CMakeFiles/cmcompress.dir/cmcompress.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmcompress.dir/cmcompress.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress/cmcompress.c
 
 Utilities/cmcompress/CMakeFiles/cmcompress.dir/cmcompress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cmcompress.dir/cmcompress.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress/cmcompress.c > CMakeFiles/cmcompress.dir/cmcompress.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress/cmcompress.c > CMakeFiles/cmcompress.dir/cmcompress.c.i
 
 Utilities/cmcompress/CMakeFiles/cmcompress.dir/cmcompress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cmcompress.dir/cmcompress.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress/cmcompress.c -o CMakeFiles/cmcompress.dir/cmcompress.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress/cmcompress.c -o CMakeFiles/cmcompress.dir/cmcompress.c.s
 
 # Object files for target cmcompress
 cmcompress_OBJECTS = \
@@ -80,9 +80,9 @@ cmcompress_EXTERNAL_OBJECTS =
 Utilities/cmcompress/libcmcompress.a: Utilities/cmcompress/CMakeFiles/cmcompress.dir/cmcompress.c.o
 Utilities/cmcompress/libcmcompress.a: Utilities/cmcompress/CMakeFiles/cmcompress.dir/build.make
 Utilities/cmcompress/libcmcompress.a: Utilities/cmcompress/CMakeFiles/cmcompress.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libcmcompress.a"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress && $(CMAKE_COMMAND) -P CMakeFiles/cmcompress.dir/cmake_clean_target.cmake
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmcompress.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libcmcompress.a"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress && $(CMAKE_COMMAND) -P CMakeFiles/cmcompress.dir/cmake_clean_target.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmcompress.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Utilities/cmcompress/CMakeFiles/cmcompress.dir/build: Utilities/cmcompress/libcmcompress.a
@@ -90,10 +90,10 @@ Utilities/cmcompress/CMakeFiles/cmcompress.dir/build: Utilities/cmcompress/libcm
 .PHONY : Utilities/cmcompress/CMakeFiles/cmcompress.dir/build
 
 Utilities/cmcompress/CMakeFiles/cmcompress.dir/clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress && $(CMAKE_COMMAND) -P CMakeFiles/cmcompress.dir/cmake_clean.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress && $(CMAKE_COMMAND) -P CMakeFiles/cmcompress.dir/cmake_clean.cmake
 .PHONY : Utilities/cmcompress/CMakeFiles/cmcompress.dir/clean
 
 Utilities/cmcompress/CMakeFiles/cmcompress.dir/depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress/CMakeFiles/cmcompress.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress/CMakeFiles/cmcompress.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Utilities/cmcompress/CMakeFiles/cmcompress.dir/depend
 

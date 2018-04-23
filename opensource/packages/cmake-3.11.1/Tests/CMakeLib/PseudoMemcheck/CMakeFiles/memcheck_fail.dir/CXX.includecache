@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/ret1.cxx
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/ret1.cxx
 cmSystemTools.h
 -
 cmsys/Encoding.hxx
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/cmsys/Encoding.hxx
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/cmsys/Encoding.hxx
 string
 -
 

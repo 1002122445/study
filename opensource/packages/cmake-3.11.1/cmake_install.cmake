@@ -1,8 +1,8 @@
-# Install script for directory: /home/proj/opensource/packages/cmake-3.11.1
+# Install script for directory: /home/project/study/opensource/packages/cmake-3.11.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/proj/opensource")
+  set(CMAKE_INSTALL_PREFIX "/home/project/study/opensource")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,35 +38,35 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/doc/cmake-3.11" TYPE FILE FILES "/home/proj/opensource/packages/cmake-3.11.1/Copyright.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/doc/cmake-3.11" TYPE FILE FILES "/home/project/study/opensource/packages/cmake-3.11.1/Copyright.txt")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake-3.11" TYPE DIRECTORY PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ DIR_PERMISSIONS OWNER_READ OWNER_EXECUTE OWNER_WRITE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES
-    "/home/proj/opensource/packages/cmake-3.11.1/Help"
-    "/home/proj/opensource/packages/cmake-3.11.1/Modules"
-    "/home/proj/opensource/packages/cmake-3.11.1/Templates"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Help"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Modules"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Templates"
     REGEX "/[^/]*\\.sh[^/]*$" PERMISSIONS OWNER_READ OWNER_EXECUTE OWNER_WRITE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE REGEX "Help/dev($|/)" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/KWIML/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibrhash/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmzlib/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcompress/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmexpat/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmliblzma/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmjsoncpp/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Source/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Tests/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Auxiliary/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/KWIML/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibrhash/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmzlib/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcompress/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmexpat/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmliblzma/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmjsoncpp/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Source/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/cmake_install.cmake")
 
 endif()
 
@@ -78,5 +78,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/proj/opensource/packages/cmake-3.11.1/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/project/study/opensource/packages/cmake-3.11.1/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

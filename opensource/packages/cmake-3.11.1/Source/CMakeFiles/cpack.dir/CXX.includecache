@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackComponentGroup.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackComponentGroup.h
 cmConfigure.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmConfigure.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmConfigure.h
 string
 -
 vector
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackGenerator.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackGenerator.h
 cmConfigure.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmConfigure.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmConfigure.h
 map
 -
 sstream
@@ -26,15 +26,15 @@ string
 vector
 -
 cmCPackComponentGroup.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackComponentGroup.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackComponentGroup.h
 cmSystemTools.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmSystemTools.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmSystemTools.h
 cm_sys_stat.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cm_sys_stat.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cm_sys_stat.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackGeneratorFactory.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackGeneratorFactory.h
 cmConfigure.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmConfigure.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmConfigure.h
 map
 -
 string
@@ -42,9 +42,9 @@ string
 vector
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackLog.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackLog.h
 cmConfigure.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmConfigure.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmConfigure.h
 ostream
 -
 string.h
@@ -52,11 +52,11 @@ string.h
 string
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cpack.cxx
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cpack.cxx
 cmsys/CommandLineArguments.hxx
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmsys/CommandLineArguments.hxx
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmsys/CommandLineArguments.hxx
 cmsys/Encoding.hxx
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmsys/Encoding.hxx
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmsys/Encoding.hxx
 iostream
 -
 map
@@ -74,27 +74,27 @@ utility
 vector
 -
 cmsys/ConsoleBuf.hxx
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmsys/ConsoleBuf.hxx
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmsys/ConsoleBuf.hxx
 cmCPackGenerator.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackGenerator.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackGenerator.h
 cmCPackGeneratorFactory.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackGeneratorFactory.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackGeneratorFactory.h
 cmCPackLog.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackLog.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmCPackLog.h
 cmDocumentation.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmDocumentation.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmDocumentation.h
 cmDocumentationEntry.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmDocumentationEntry.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmDocumentationEntry.h
 cmGlobalGenerator.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmGlobalGenerator.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmGlobalGenerator.h
 cmMakefile.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmMakefile.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmMakefile.h
 cmStateSnapshot.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmStateSnapshot.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmStateSnapshot.h
 cmSystemTools.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmSystemTools.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmSystemTools.h
 cmake.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/CPack/cmake.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/CPack/cmake.h
 
 Source/cmAlgorithms.h
 cmConfigure.h

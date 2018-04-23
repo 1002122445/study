@@ -1,8 +1,8 @@
-# Install script for directory: /home/proj/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion
+# Install script for directory: /home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/proj/opensource")
+  set(CMAKE_INSTALL_PREFIX "/home/project/study/opensource")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake-3.11/completions" TYPE FILE FILES
-    "/home/proj/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion/cmake"
-    "/home/proj/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion/cpack"
-    "/home/proj/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion/ctest"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion/cmake"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion/cpack"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion/ctest"
     )
 endif()
 

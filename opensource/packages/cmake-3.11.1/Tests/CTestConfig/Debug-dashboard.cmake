@@ -1,6 +1,6 @@
 set(_isMultiConfig "0")
-set(CTEST_SOURCE_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestConfig")
-set(CTEST_BINARY_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestConfig/Debug-dashboard")
+set(CTEST_SOURCE_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestConfig")
+set(CTEST_BINARY_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestConfig/Debug-dashboard")
 
 file(MAKE_DIRECTORY "${CTEST_BINARY_DIRECTORY}")
 

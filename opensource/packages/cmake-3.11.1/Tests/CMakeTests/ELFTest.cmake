@@ -6,8 +6,8 @@ set(names
   )
 
 # Prepare binaries on which to operate.
-set(in "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/ELF")
-set(out "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/ELF-Out")
+set(in "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/ELF")
+set(out "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/ELF-Out")
 file(REMOVE_RECURSE "${out}")
 file(MAKE_DIRECTORY "${out}")
 foreach(f ${names})

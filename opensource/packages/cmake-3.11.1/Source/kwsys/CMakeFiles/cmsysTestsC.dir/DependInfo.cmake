@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/cmsysTestsC.c" "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsysTestsC.dir/cmsysTestsC.c.o"
-  "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/testEncode.c" "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsysTestsC.dir/testEncode.c.o"
-  "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/testTerminal.c" "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsysTestsC.dir/testTerminal.c.o"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/cmsysTestsC.c" "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsysTestsC.dir/cmsysTestsC.c.o"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/testEncode.c" "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsysTestsC.dir/testEncode.c.o"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/testTerminal.c" "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsysTestsC.dir/testTerminal.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -26,7 +26,7 @@ set(CMAKE_INCLUDE_TRANSFORMS
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsys_c.dir/DependInfo.cmake"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsys_c.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

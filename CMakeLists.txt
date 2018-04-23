@@ -3,7 +3,8 @@ project(study)
 MESSAGE("project study")
 MESSAGE(${CMAKE_SOURCE_DIR})
 
-include(Package.cmake)
+# include
+include(cmake/Package.cmake)
 
 add_compile_options(-std=c++11)
 

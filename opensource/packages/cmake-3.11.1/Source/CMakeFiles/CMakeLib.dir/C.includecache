@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/LexerParser/cmListFileLexer.c
+/home/project/study/opensource/packages/cmake-3.11.1/Source/LexerParser/cmListFileLexer.c
 cmStandardLexer.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/LexerParser/cmStandardLexer.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/LexerParser/cmStandardLexer.h
 stdio.h
 -
 string.h
@@ -20,27 +20,27 @@ stdlib.h
 inttypes.h
 -
 cmsys/Encoding.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/LexerParser/cmsys/Encoding.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/LexerParser/cmsys/Encoding.h
 cmListFileLexer.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/LexerParser/cmListFileLexer.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/LexerParser/cmListFileLexer.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/cm_get_date.c
+/home/project/study/opensource/packages/cmake-3.11.1/Source/cm_get_date.c
 cm_get_date.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/cm_get_date.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/cm_get_date.h
 ../Utilities/cmlibarchive/libarchive/archive_getdate.c
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/libarchive/archive_getdate.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/libarchive/archive_getdate.c
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/cm_get_date.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/cm_get_date.h
 time.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/cm_utf8.c
+/home/project/study/opensource/packages/cmake-3.11.1/Source/cm_utf8.c
 cm_utf8.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/cm_utf8.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/cm_utf8.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/cm_utf8.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/cm_utf8.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/libarchive/archive_getdate.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/libarchive/archive_getdate.c
 sys/cdefs.h
 -
 ctype.h
@@ -54,9 +54,9 @@ string.h
 time.h
 -
 archive_getdate.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/libarchive/archive_getdate.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/libarchive/archive_getdate.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/libarchive/archive_getdate.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive/libarchive/archive_getdate.h
 time.h
 -
 

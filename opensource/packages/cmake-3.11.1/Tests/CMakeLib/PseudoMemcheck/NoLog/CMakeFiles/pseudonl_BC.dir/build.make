@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # Include any dependencies generated for this target.
 include Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/depend.make
@@ -59,16 +59,16 @@ include Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/flags.mak
 
 Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/ret0.c.o: Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/flags.make
 Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/ret0.c.o: Tests/CMakeLib/PseudoMemcheck/NoLog/ret0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/ret0.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pseudonl_BC.dir/ret0.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/ret0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/ret0.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pseudonl_BC.dir/ret0.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/ret0.c
 
 Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/ret0.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pseudonl_BC.dir/ret0.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/ret0.c > CMakeFiles/pseudonl_BC.dir/ret0.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/ret0.c > CMakeFiles/pseudonl_BC.dir/ret0.c.i
 
 Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/ret0.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pseudonl_BC.dir/ret0.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/ret0.c -o CMakeFiles/pseudonl_BC.dir/ret0.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/ret0.c -o CMakeFiles/pseudonl_BC.dir/ret0.c.s
 
 # Object files for target pseudonl_BC
 pseudonl_BC_OBJECTS = \
@@ -80,8 +80,8 @@ pseudonl_BC_EXTERNAL_OBJECTS =
 Tests/CMakeLib/PseudoMemcheck/NoLog/BC: Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/ret0.c.o
 Tests/CMakeLib/PseudoMemcheck/NoLog/BC: Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/build.make
 Tests/CMakeLib/PseudoMemcheck/NoLog/BC: Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable BC"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pseudonl_BC.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable BC"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pseudonl_BC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/build: Tests/CMakeLib/PseudoMemcheck/NoLog/BC
@@ -89,10 +89,10 @@ Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/build: Tests/CMak
 .PHONY : Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/build
 
 Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && $(CMAKE_COMMAND) -P CMakeFiles/pseudonl_BC.dir/cmake_clean.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog && $(CMAKE_COMMAND) -P CMakeFiles/pseudonl_BC.dir/cmake_clean.cmake
 .PHONY : Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/clean
 
 Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_BC.dir/depend
 

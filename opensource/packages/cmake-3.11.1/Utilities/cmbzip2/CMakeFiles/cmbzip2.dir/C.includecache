@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/blocksort.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/blocksort.c
 bzlib_private.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib.c
 bzlib_private.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
 fcntl.h
 -
 io.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib.h
 stdio.h
 -
 windows.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
 stdlib.h
 -
 stdio.h
@@ -34,25 +34,25 @@ ctype.h
 string.h
 -
 bzlib.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/compress.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/compress.c
 bzlib_private.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/crctable.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/crctable.c
 bzlib_private.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/decompress.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/decompress.c
 bzlib_private.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/huffman.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/huffman.c
 bzlib_private.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/randtable.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/randtable.c
 bzlib_private.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/bzlib_private.h
 

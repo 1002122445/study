@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: ^([ 	]*[#%][ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<cmsys/%>
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.h.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.h.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.h.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.h.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 stdio.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/cmsysTestsC.c
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/cmsysTestsC.c
 ctype.h
 -
 stdio.h
@@ -26,31 +26,31 @@ stdlib.h
 string.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
 cmsys/Directory.hxx
 -
 cmsys/std/vector
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/testEncode.c
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/testEncode.c
 kwsysPrivate.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
 cmsys/MD5.h
 -
 MD5.h.in
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.h.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.h.in
 stdio.h
 -
 string.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/testTerminal.c
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/testTerminal.c
 kwsysPrivate.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
 cmsys/Terminal.h
 -
 Terminal.h.in
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.h.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.h.in
 
 Source/cmsys/Configure.h
 

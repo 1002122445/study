@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive
-BuildDirectory: /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive
+SourceDirectory: /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive
+BuildDirectory: /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,8 +36,8 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 1:00:00 UTC
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake" "/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive"
-MakeCommand: /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "/home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake" "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibarchive"
+MakeCommand: /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control

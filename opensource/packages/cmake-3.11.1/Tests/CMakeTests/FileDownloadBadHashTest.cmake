@@ -1,8 +1,8 @@
-if(NOT "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests" MATCHES "^/")
+if(NOT "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests" MATCHES "^/")
   set(slash /)
 endif()
-set(url "file://${slash}/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/FileDownloadInput.png")
-set(dir "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/downloads")
+set(url "file://${slash}/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/FileDownloadInput.png")
+set(dir "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/downloads")
 
 file(DOWNLOAD
   ${url}

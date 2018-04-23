@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # Include any dependencies generated for this target.
 include Utilities/cmcurl/CMakeFiles/LIBCURL.dir/depend.make
@@ -59,16 +59,16 @@ include Utilities/cmcurl/CMakeFiles/LIBCURL.dir/flags.make
 
 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o: Utilities/cmcurl/CMakeFiles/LIBCURL.dir/flags.make
 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o: Utilities/cmcurl/curltest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LIBCURL.dir/curltest.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LIBCURL.dir/curltest.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c
 
 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LIBCURL.dir/curltest.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c > CMakeFiles/LIBCURL.dir/curltest.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c > CMakeFiles/LIBCURL.dir/curltest.c.i
 
 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LIBCURL.dir/curltest.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c -o CMakeFiles/LIBCURL.dir/curltest.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c -o CMakeFiles/LIBCURL.dir/curltest.c.s
 
 # Object files for target LIBCURL
 LIBCURL_OBJECTS = \
@@ -80,12 +80,12 @@ LIBCURL_EXTERNAL_OBJECTS =
 Utilities/cmcurl/LIBCURL: Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o
 Utilities/cmcurl/LIBCURL: Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make
 Utilities/cmcurl/LIBCURL: Utilities/cmcurl/lib/libcmcurl.a
-Utilities/cmcurl/LIBCURL: /usr/local/lib64/libssl.so
-Utilities/cmcurl/LIBCURL: /usr/local/lib64/libcrypto.so
+Utilities/cmcurl/LIBCURL: //lib64/libssl.so
+Utilities/cmcurl/LIBCURL: //lib64/libcrypto.so
 Utilities/cmcurl/LIBCURL: Utilities/cmzlib/libcmzlib.a
 Utilities/cmcurl/LIBCURL: Utilities/cmcurl/CMakeFiles/LIBCURL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable LIBCURL"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LIBCURL.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable LIBCURL"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LIBCURL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build: Utilities/cmcurl/LIBCURL
@@ -93,10 +93,10 @@ Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build: Utilities/cmcurl/LIBCURL
 .PHONY : Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build
 
 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl && $(CMAKE_COMMAND) -P CMakeFiles/LIBCURL.dir/cmake_clean.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl && $(CMAKE_COMMAND) -P CMakeFiles/LIBCURL.dir/cmake_clean.cmake
 .PHONY : Utilities/cmcurl/CMakeFiles/LIBCURL.dir/clean
 
 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/CMakeFiles/LIBCURL.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/CMakeFiles/LIBCURL.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Utilities/cmcurl/CMakeFiles/LIBCURL.dir/depend
 

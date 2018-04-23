@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -127,7 +127,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/proj/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/project/study/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/CMakeFiles/progress.marks
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmbzip2/CMakeFiles/progress.marks
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/clean
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/rule:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/rule
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/rule
 .PHONY : Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ cmbzip2: Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/rule
 
 # fast build rule for target.
 cmbzip2/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build
 .PHONY : cmbzip2/fast
 
 blocksort.o: blocksort.c.o
@@ -210,7 +210,7 @@ blocksort.o: blocksort.c.o
 
 # target to build an object file
 blocksort.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/blocksort.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/blocksort.c.o
 .PHONY : blocksort.c.o
 
 blocksort.i: blocksort.c.i
@@ -219,7 +219,7 @@ blocksort.i: blocksort.c.i
 
 # target to preprocess a source file
 blocksort.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/blocksort.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/blocksort.c.i
 .PHONY : blocksort.c.i
 
 blocksort.s: blocksort.c.s
@@ -228,7 +228,7 @@ blocksort.s: blocksort.c.s
 
 # target to generate assembly for a file
 blocksort.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/blocksort.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/blocksort.c.s
 .PHONY : blocksort.c.s
 
 bzlib.o: bzlib.c.o
@@ -237,7 +237,7 @@ bzlib.o: bzlib.c.o
 
 # target to build an object file
 bzlib.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/bzlib.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/bzlib.c.o
 .PHONY : bzlib.c.o
 
 bzlib.i: bzlib.c.i
@@ -246,7 +246,7 @@ bzlib.i: bzlib.c.i
 
 # target to preprocess a source file
 bzlib.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/bzlib.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/bzlib.c.i
 .PHONY : bzlib.c.i
 
 bzlib.s: bzlib.c.s
@@ -255,7 +255,7 @@ bzlib.s: bzlib.c.s
 
 # target to generate assembly for a file
 bzlib.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/bzlib.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/bzlib.c.s
 .PHONY : bzlib.c.s
 
 compress.o: compress.c.o
@@ -264,7 +264,7 @@ compress.o: compress.c.o
 
 # target to build an object file
 compress.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/compress.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/compress.c.o
 .PHONY : compress.c.o
 
 compress.i: compress.c.i
@@ -273,7 +273,7 @@ compress.i: compress.c.i
 
 # target to preprocess a source file
 compress.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/compress.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/compress.c.i
 .PHONY : compress.c.i
 
 compress.s: compress.c.s
@@ -282,7 +282,7 @@ compress.s: compress.c.s
 
 # target to generate assembly for a file
 compress.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/compress.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/compress.c.s
 .PHONY : compress.c.s
 
 crctable.o: crctable.c.o
@@ -291,7 +291,7 @@ crctable.o: crctable.c.o
 
 # target to build an object file
 crctable.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/crctable.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/crctable.c.o
 .PHONY : crctable.c.o
 
 crctable.i: crctable.c.i
@@ -300,7 +300,7 @@ crctable.i: crctable.c.i
 
 # target to preprocess a source file
 crctable.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/crctable.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/crctable.c.i
 .PHONY : crctable.c.i
 
 crctable.s: crctable.c.s
@@ -309,7 +309,7 @@ crctable.s: crctable.c.s
 
 # target to generate assembly for a file
 crctable.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/crctable.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/crctable.c.s
 .PHONY : crctable.c.s
 
 decompress.o: decompress.c.o
@@ -318,7 +318,7 @@ decompress.o: decompress.c.o
 
 # target to build an object file
 decompress.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/decompress.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/decompress.c.o
 .PHONY : decompress.c.o
 
 decompress.i: decompress.c.i
@@ -327,7 +327,7 @@ decompress.i: decompress.c.i
 
 # target to preprocess a source file
 decompress.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/decompress.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/decompress.c.i
 .PHONY : decompress.c.i
 
 decompress.s: decompress.c.s
@@ -336,7 +336,7 @@ decompress.s: decompress.c.s
 
 # target to generate assembly for a file
 decompress.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/decompress.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/decompress.c.s
 .PHONY : decompress.c.s
 
 huffman.o: huffman.c.o
@@ -345,7 +345,7 @@ huffman.o: huffman.c.o
 
 # target to build an object file
 huffman.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/huffman.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/huffman.c.o
 .PHONY : huffman.c.o
 
 huffman.i: huffman.c.i
@@ -354,7 +354,7 @@ huffman.i: huffman.c.i
 
 # target to preprocess a source file
 huffman.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/huffman.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/huffman.c.i
 .PHONY : huffman.c.i
 
 huffman.s: huffman.c.s
@@ -363,7 +363,7 @@ huffman.s: huffman.c.s
 
 # target to generate assembly for a file
 huffman.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/huffman.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/huffman.c.s
 .PHONY : huffman.c.s
 
 randtable.o: randtable.c.o
@@ -372,7 +372,7 @@ randtable.o: randtable.c.o
 
 # target to build an object file
 randtable.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/randtable.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/randtable.c.o
 .PHONY : randtable.c.o
 
 randtable.i: randtable.c.i
@@ -381,7 +381,7 @@ randtable.i: randtable.c.i
 
 # target to preprocess a source file
 randtable.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/randtable.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/randtable.c.i
 .PHONY : randtable.c.i
 
 randtable.s: randtable.c.s
@@ -390,7 +390,7 @@ randtable.s: randtable.c.s
 
 # target to generate assembly for a file
 randtable.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/randtable.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/build.make Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/randtable.c.s
 .PHONY : randtable.c.s
 
 # Help Target
@@ -441,6 +441,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

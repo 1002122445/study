@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/ret0.c" "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_purify.dir/ret0.c.o"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/ret0.c" "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/NoLog/CMakeFiles/pseudonl_purify.dir/ret0.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

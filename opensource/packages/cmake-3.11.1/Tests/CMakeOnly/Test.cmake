@@ -7,8 +7,8 @@ if(make_program)
   set(maybe_make_program "-DCMAKE_MAKE_PROGRAM=${make_program}")
 endif()
 
-set(source_dir "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeOnly/${TEST_SOURCE}")
-set(binary_dir "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeOnly/${TEST}-build")
+set(source_dir "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeOnly/${TEST_SOURCE}")
+set(binary_dir "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeOnly/${TEST}-build")
 file(REMOVE_RECURSE "${binary_dir}")
 file(MAKE_DIRECTORY "${binary_dir}")
 execute_process(

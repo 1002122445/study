@@ -6,7 +6,7 @@ C_FLAGS =   -std=gnu99
 
 C_DEFINES = -DKWSYS_NAMESPACE=cmsys
 
-C_INCLUDES = -I/home/proj/opensource/packages/cmake-3.11.1/Source -I/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys 
+C_INCLUDES = -I/home/project/study/opensource/packages/cmake-3.11.1/Source -I/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys 
 
 # Custom flags: Source/kwsys/CMakeFiles/cmsysTestProcess.dir/testProcess.c.o_FLAGS = 
 

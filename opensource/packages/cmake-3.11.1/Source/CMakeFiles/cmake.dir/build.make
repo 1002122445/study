@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # Include any dependencies generated for this target.
 include Source/CMakeFiles/cmake.dir/depend.make
@@ -59,29 +59,29 @@ include Source/CMakeFiles/cmake.dir/flags.make
 
 Source/CMakeFiles/cmake.dir/cmakemain.cxx.o: Source/CMakeFiles/cmake.dir/flags.make
 Source/CMakeFiles/cmake.dir/cmakemain.cxx.o: Source/cmakemain.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Source/CMakeFiles/cmake.dir/cmakemain.cxx.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmake.dir/cmakemain.cxx.o -c /home/proj/opensource/packages/cmake-3.11.1/Source/cmakemain.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Source/CMakeFiles/cmake.dir/cmakemain.cxx.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmake.dir/cmakemain.cxx.o -c /home/project/study/opensource/packages/cmake-3.11.1/Source/cmakemain.cxx
 
 Source/CMakeFiles/cmake.dir/cmakemain.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake.dir/cmakemain.cxx.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Source/cmakemain.cxx > CMakeFiles/cmake.dir/cmakemain.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Source/cmakemain.cxx > CMakeFiles/cmake.dir/cmakemain.cxx.i
 
 Source/CMakeFiles/cmake.dir/cmakemain.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake.dir/cmakemain.cxx.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Source/cmakemain.cxx -o CMakeFiles/cmake.dir/cmakemain.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Source/cmakemain.cxx -o CMakeFiles/cmake.dir/cmakemain.cxx.s
 
 Source/CMakeFiles/cmake.dir/cmcmd.cxx.o: Source/CMakeFiles/cmake.dir/flags.make
 Source/CMakeFiles/cmake.dir/cmcmd.cxx.o: Source/cmcmd.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Source/CMakeFiles/cmake.dir/cmcmd.cxx.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmake.dir/cmcmd.cxx.o -c /home/proj/opensource/packages/cmake-3.11.1/Source/cmcmd.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Source/CMakeFiles/cmake.dir/cmcmd.cxx.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmake.dir/cmcmd.cxx.o -c /home/project/study/opensource/packages/cmake-3.11.1/Source/cmcmd.cxx
 
 Source/CMakeFiles/cmake.dir/cmcmd.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake.dir/cmcmd.cxx.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Source/cmcmd.cxx > CMakeFiles/cmake.dir/cmcmd.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Source/cmcmd.cxx > CMakeFiles/cmake.dir/cmcmd.cxx.i
 
 Source/CMakeFiles/cmake.dir/cmcmd.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake.dir/cmcmd.cxx.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Source/cmcmd.cxx -o CMakeFiles/cmake.dir/cmcmd.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Source/cmcmd.cxx -o CMakeFiles/cmake.dir/cmcmd.cxx.s
 
 # Object files for target cmake
 cmake_OBJECTS = \
@@ -105,14 +105,14 @@ bin/cmake: Utilities/cmbzip2/libcmbzip2.a
 bin/cmake: Utilities/cmcompress/libcmcompress.a
 bin/cmake: Utilities/cmcurl/lib/libcmcurl.a
 bin/cmake: Utilities/cmzlib/libcmzlib.a
-bin/cmake: /usr/local/lib64/libssl.so
-bin/cmake: /usr/local/lib64/libcrypto.so
+bin/cmake: //lib64/libssl.so
+bin/cmake: //lib64/libcrypto.so
 bin/cmake: Utilities/cmjsoncpp/libcmjsoncpp.a
 bin/cmake: Utilities/cmlibuv/libcmlibuv.a
 bin/cmake: Utilities/cmlibrhash/libcmlibrhash.a
 bin/cmake: Source/CMakeFiles/cmake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/cmake"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmake.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/cmake"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Source/CMakeFiles/cmake.dir/build: bin/cmake
@@ -120,10 +120,10 @@ Source/CMakeFiles/cmake.dir/build: bin/cmake
 .PHONY : Source/CMakeFiles/cmake.dir/build
 
 Source/CMakeFiles/cmake.dir/clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source && $(CMAKE_COMMAND) -P CMakeFiles/cmake.dir/cmake_clean.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source && $(CMAKE_COMMAND) -P CMakeFiles/cmake.dir/cmake_clean.cmake
 .PHONY : Source/CMakeFiles/cmake.dir/clean
 
 Source/CMakeFiles/cmake.dir/depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Source /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Source /home/proj/opensource/packages/cmake-3.11.1/Source/CMakeFiles/cmake.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Source /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Source /home/project/study/opensource/packages/cmake-3.11.1/Source/CMakeFiles/cmake.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Source/CMakeFiles/cmake.dir/depend
 

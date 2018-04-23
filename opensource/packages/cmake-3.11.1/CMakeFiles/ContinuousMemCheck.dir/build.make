@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # Utility rule file for ContinuousMemCheck.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
 include CMakeFiles/ContinuousMemCheck.dir/progress.make
 
 CMakeFiles/ContinuousMemCheck:
-	/home/proj/opensource/bin/ctest -D ContinuousMemCheck
+	/home/project/study/opensource/bin/ctest -D ContinuousMemCheck
 
 ContinuousMemCheck: CMakeFiles/ContinuousMemCheck
 ContinuousMemCheck: CMakeFiles/ContinuousMemCheck.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/ContinuousMemCheck.dir/clean:
 .PHONY : CMakeFiles/ContinuousMemCheck.dir/clean
 
 CMakeFiles/ContinuousMemCheck.dir/depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousMemCheck.dir/depend
 

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/run_compile_commands.cxx
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/run_compile_commands.cxx
 cmConfigure.h
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/cmConfigure.h
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/cmConfigure.h
 cmsys/FStream.hxx
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/cmsys/FStream.hxx
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/cmsys/FStream.hxx
 iostream
 -
 map
@@ -24,7 +24,7 @@ utility
 vector
 -
 cmSystemTools.h
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/cmSystemTools.h
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/cmSystemTools.h
 
 Source/cmConfigure.h
 cmsys/Configure.hxx

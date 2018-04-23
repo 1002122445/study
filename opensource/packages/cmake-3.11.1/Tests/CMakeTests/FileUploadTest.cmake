@@ -1,19 +1,19 @@
-file(REMOVE_RECURSE "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads")
+file(REMOVE_RECURSE "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads")
 
-if(EXISTS "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads/file1.png")
+if(EXISTS "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads/file1.png")
   message(FATAL_ERROR "error: file1.png exists - should have been deleted")
 endif()
-if(EXISTS "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads/file2.png")
+if(EXISTS "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads/file2.png")
   message(FATAL_ERROR "error: file2.png exists - should have been deleted")
 endif()
 
-file(MAKE_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads")
+file(MAKE_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads")
 
-set(filename "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/FileDownloadInput.png")
-if(NOT "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests" MATCHES "^/")
+set(filename "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/FileDownloadInput.png")
+if(NOT "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests" MATCHES "^/")
   set(slash /)
 endif()
-set(urlbase "file://${slash}/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads")
+set(urlbase "file://${slash}/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads")
 
 message(STATUS "FileUpload:1")
 file(UPLOAD
@@ -32,7 +32,7 @@ file(UPLOAD
   )
 
 execute_process(COMMAND ${CMAKE_COMMAND} -E md5sum
-  "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads/file1.png"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads/file1.png"
   OUTPUT_VARIABLE sum1
   OUTPUT_STRIP_TRAILING_WHITESPACE)
 if(NOT sum1 MATCHES "^d16778650db435bda3a8c3435c3ff5d1  .*/uploads/file1.png$")
@@ -40,7 +40,7 @@ if(NOT sum1 MATCHES "^d16778650db435bda3a8c3435c3ff5d1  .*/uploads/file1.png$")
 endif()
 
 execute_process(COMMAND ${CMAKE_COMMAND} -E md5sum
-  "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads/file2.png"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/uploads/file2.png"
   OUTPUT_VARIABLE sum2
   OUTPUT_STRIP_TRAILING_WHITESPACE)
 if(NOT sum2 MATCHES "^d16778650db435bda3a8c3435c3ff5d1  .*/uploads/file2.png$")

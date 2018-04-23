@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: ^([ 	]*[#%][ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<cmsys/%>
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/testDynload.c
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/testDynload.c
 

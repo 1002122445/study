@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c" "/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c" "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -19,12 +19,13 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "Utilities"
   "Utilities/cmcurl/include/curl"
   "Utilities/cmcurl/include"
+  "//include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/lib/CMakeFiles/cmcurl.dir/DependInfo.cmake"
-  "/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmzlib/CMakeFiles/cmzlib.dir/DependInfo.cmake"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/lib/CMakeFiles/cmcurl.dir/DependInfo.cmake"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmzlib/CMakeFiles/cmzlib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

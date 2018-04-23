@@ -9,6 +9,6 @@ endif()
 
 # this seems to be necessary, otherwise ctest complains that these
 # variables are not set:
-set(CTEST_COMMAND "\"/home/proj/opensource/packages/cmake-3.11.1/bin/ctest\"")
-set(CTEST_SOURCE_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestScriptMode/")
-set(CTEST_BINARY_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestScriptMode/")
+set(CTEST_COMMAND "\"/home/project/study/opensource/packages/cmake-3.11.1/bin/ctest\"")
+set(CTEST_SOURCE_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestScriptMode/")
+set(CTEST_BINARY_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestScriptMode/")

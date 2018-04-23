@@ -2,8 +2,8 @@ set(CTEST_CMAKE_GENERATOR "Unix Makefiles")
 set(CTEST_CMAKE_GENERATOR_PLATFORM "")
 set(CTEST_CMAKE_GENERATOR_TOOLSET "")
 set(CTEST_PROJECT_NAME "CTestConfig")
-set(CTEST_SOURCE_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestConfig")
-set(CTEST_BINARY_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestConfig/Release-script")
+set(CTEST_SOURCE_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestConfig")
+set(CTEST_BINARY_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestConfig/Release-script")
 
 ctest_start(Experimental)
 

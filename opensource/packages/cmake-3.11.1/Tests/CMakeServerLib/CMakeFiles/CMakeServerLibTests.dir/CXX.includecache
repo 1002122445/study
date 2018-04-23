@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/CMakeServerLibTests.cxx
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/CMakeServerLibTests.cxx
 ctype.h
 -
 stdio.h
@@ -16,11 +16,11 @@ stdlib.h
 string.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/testServerBuffering.cpp
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/testServerBuffering.cpp
 cmConnection.h
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/cmConnection.h
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/cmConnection.h
 cmServerConnection.h
-/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/cmServerConnection.h
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/cmServerConnection.h
 iostream
 -
 string

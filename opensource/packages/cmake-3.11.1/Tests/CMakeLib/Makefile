@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -71,7 +71,7 @@ install/local/fast: preinstall/fast
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -93,7 +93,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/proj/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/project/study/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/CMakeFiles/progress.marks
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/CMakeFiles/progress.marks
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/clean
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/rule:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/rule
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/rule
 .PHONY : Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ runcompilecommands: Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/rule
 
 # fast build rule for target.
 runcompilecommands/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build.make Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build.make Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build
 .PHONY : runcompilecommands/fast
 
 # Convenience name for target.
 Tests/CMakeLib/CMakeFiles/testEncoding.dir/rule:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/CMakeFiles/testEncoding.dir/rule
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/CMakeFiles/testEncoding.dir/rule
 .PHONY : Tests/CMakeLib/CMakeFiles/testEncoding.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ testEncoding: Tests/CMakeLib/CMakeFiles/testEncoding.dir/rule
 
 # fast build rule for target.
 testEncoding/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/testEncoding.dir/build.make Tests/CMakeLib/CMakeFiles/testEncoding.dir/build
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/testEncoding.dir/build.make Tests/CMakeLib/CMakeFiles/testEncoding.dir/build
 .PHONY : testEncoding/fast
 
 # Convenience name for target.
 Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/rule:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/rule
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/rule
 .PHONY : Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/rule
 
 # Convenience name for target.
@@ -231,7 +231,7 @@ CMakeLibTests: Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/rule
 
 # fast build rule for target.
 CMakeLibTests/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build
 .PHONY : CMakeLibTests/fast
 
 CMakeLibTests.o: CMakeLibTests.cxx.o
@@ -240,7 +240,7 @@ CMakeLibTests.o: CMakeLibTests.cxx.o
 
 # target to build an object file
 CMakeLibTests.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/CMakeLibTests.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/CMakeLibTests.cxx.o
 .PHONY : CMakeLibTests.cxx.o
 
 CMakeLibTests.i: CMakeLibTests.cxx.i
@@ -249,7 +249,7 @@ CMakeLibTests.i: CMakeLibTests.cxx.i
 
 # target to preprocess a source file
 CMakeLibTests.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/CMakeLibTests.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/CMakeLibTests.cxx.i
 .PHONY : CMakeLibTests.cxx.i
 
 CMakeLibTests.s: CMakeLibTests.cxx.s
@@ -258,7 +258,7 @@ CMakeLibTests.s: CMakeLibTests.cxx.s
 
 # target to generate assembly for a file
 CMakeLibTests.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/CMakeLibTests.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/CMakeLibTests.cxx.s
 .PHONY : CMakeLibTests.cxx.s
 
 run_compile_commands.o: run_compile_commands.cxx.o
@@ -267,7 +267,7 @@ run_compile_commands.o: run_compile_commands.cxx.o
 
 # target to build an object file
 run_compile_commands.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build.make Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/run_compile_commands.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build.make Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/run_compile_commands.cxx.o
 .PHONY : run_compile_commands.cxx.o
 
 run_compile_commands.i: run_compile_commands.cxx.i
@@ -276,7 +276,7 @@ run_compile_commands.i: run_compile_commands.cxx.i
 
 # target to preprocess a source file
 run_compile_commands.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build.make Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/run_compile_commands.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build.make Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/run_compile_commands.cxx.i
 .PHONY : run_compile_commands.cxx.i
 
 run_compile_commands.s: run_compile_commands.cxx.s
@@ -285,7 +285,7 @@ run_compile_commands.s: run_compile_commands.cxx.s
 
 # target to generate assembly for a file
 run_compile_commands.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build.make Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/run_compile_commands.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/build.make Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/run_compile_commands.cxx.s
 .PHONY : run_compile_commands.cxx.s
 
 testEncoding.o: testEncoding.cxx.o
@@ -294,7 +294,7 @@ testEncoding.o: testEncoding.cxx.o
 
 # target to build an object file
 testEncoding.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/testEncoding.dir/build.make Tests/CMakeLib/CMakeFiles/testEncoding.dir/testEncoding.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/testEncoding.dir/build.make Tests/CMakeLib/CMakeFiles/testEncoding.dir/testEncoding.cxx.o
 .PHONY : testEncoding.cxx.o
 
 testEncoding.i: testEncoding.cxx.i
@@ -303,7 +303,7 @@ testEncoding.i: testEncoding.cxx.i
 
 # target to preprocess a source file
 testEncoding.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/testEncoding.dir/build.make Tests/CMakeLib/CMakeFiles/testEncoding.dir/testEncoding.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/testEncoding.dir/build.make Tests/CMakeLib/CMakeFiles/testEncoding.dir/testEncoding.cxx.i
 .PHONY : testEncoding.cxx.i
 
 testEncoding.s: testEncoding.cxx.s
@@ -312,7 +312,7 @@ testEncoding.s: testEncoding.cxx.s
 
 # target to generate assembly for a file
 testEncoding.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/testEncoding.dir/build.make Tests/CMakeLib/CMakeFiles/testEncoding.dir/testEncoding.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/testEncoding.dir/build.make Tests/CMakeLib/CMakeFiles/testEncoding.dir/testEncoding.cxx.s
 .PHONY : testEncoding.cxx.s
 
 testFindPackageCommand.o: testFindPackageCommand.cxx.o
@@ -321,7 +321,7 @@ testFindPackageCommand.o: testFindPackageCommand.cxx.o
 
 # target to build an object file
 testFindPackageCommand.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testFindPackageCommand.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testFindPackageCommand.cxx.o
 .PHONY : testFindPackageCommand.cxx.o
 
 testFindPackageCommand.i: testFindPackageCommand.cxx.i
@@ -330,7 +330,7 @@ testFindPackageCommand.i: testFindPackageCommand.cxx.i
 
 # target to preprocess a source file
 testFindPackageCommand.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testFindPackageCommand.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testFindPackageCommand.cxx.i
 .PHONY : testFindPackageCommand.cxx.i
 
 testFindPackageCommand.s: testFindPackageCommand.cxx.s
@@ -339,7 +339,7 @@ testFindPackageCommand.s: testFindPackageCommand.cxx.s
 
 # target to generate assembly for a file
 testFindPackageCommand.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testFindPackageCommand.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testFindPackageCommand.cxx.s
 .PHONY : testFindPackageCommand.cxx.s
 
 testGeneratedFileStream.o: testGeneratedFileStream.cxx.o
@@ -348,7 +348,7 @@ testGeneratedFileStream.o: testGeneratedFileStream.cxx.o
 
 # target to build an object file
 testGeneratedFileStream.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testGeneratedFileStream.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testGeneratedFileStream.cxx.o
 .PHONY : testGeneratedFileStream.cxx.o
 
 testGeneratedFileStream.i: testGeneratedFileStream.cxx.i
@@ -357,7 +357,7 @@ testGeneratedFileStream.i: testGeneratedFileStream.cxx.i
 
 # target to preprocess a source file
 testGeneratedFileStream.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testGeneratedFileStream.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testGeneratedFileStream.cxx.i
 .PHONY : testGeneratedFileStream.cxx.i
 
 testGeneratedFileStream.s: testGeneratedFileStream.cxx.s
@@ -366,7 +366,7 @@ testGeneratedFileStream.s: testGeneratedFileStream.cxx.s
 
 # target to generate assembly for a file
 testGeneratedFileStream.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testGeneratedFileStream.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testGeneratedFileStream.cxx.s
 .PHONY : testGeneratedFileStream.cxx.s
 
 testRST.o: testRST.cxx.o
@@ -375,7 +375,7 @@ testRST.o: testRST.cxx.o
 
 # target to build an object file
 testRST.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testRST.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testRST.cxx.o
 .PHONY : testRST.cxx.o
 
 testRST.i: testRST.cxx.i
@@ -384,7 +384,7 @@ testRST.i: testRST.cxx.i
 
 # target to preprocess a source file
 testRST.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testRST.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testRST.cxx.i
 .PHONY : testRST.cxx.i
 
 testRST.s: testRST.cxx.s
@@ -393,7 +393,7 @@ testRST.s: testRST.cxx.s
 
 # target to generate assembly for a file
 testRST.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testRST.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testRST.cxx.s
 .PHONY : testRST.cxx.s
 
 testSystemTools.o: testSystemTools.cxx.o
@@ -402,7 +402,7 @@ testSystemTools.o: testSystemTools.cxx.o
 
 # target to build an object file
 testSystemTools.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testSystemTools.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testSystemTools.cxx.o
 .PHONY : testSystemTools.cxx.o
 
 testSystemTools.i: testSystemTools.cxx.i
@@ -411,7 +411,7 @@ testSystemTools.i: testSystemTools.cxx.i
 
 # target to preprocess a source file
 testSystemTools.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testSystemTools.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testSystemTools.cxx.i
 .PHONY : testSystemTools.cxx.i
 
 testSystemTools.s: testSystemTools.cxx.s
@@ -420,7 +420,7 @@ testSystemTools.s: testSystemTools.cxx.s
 
 # target to generate assembly for a file
 testSystemTools.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testSystemTools.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testSystemTools.cxx.s
 .PHONY : testSystemTools.cxx.s
 
 testUTF8.o: testUTF8.cxx.o
@@ -429,7 +429,7 @@ testUTF8.o: testUTF8.cxx.o
 
 # target to build an object file
 testUTF8.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUTF8.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUTF8.cxx.o
 .PHONY : testUTF8.cxx.o
 
 testUTF8.i: testUTF8.cxx.i
@@ -438,7 +438,7 @@ testUTF8.i: testUTF8.cxx.i
 
 # target to preprocess a source file
 testUTF8.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUTF8.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUTF8.cxx.i
 .PHONY : testUTF8.cxx.i
 
 testUTF8.s: testUTF8.cxx.s
@@ -447,7 +447,7 @@ testUTF8.s: testUTF8.cxx.s
 
 # target to generate assembly for a file
 testUTF8.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUTF8.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUTF8.cxx.s
 .PHONY : testUTF8.cxx.s
 
 testUVRAII.o: testUVRAII.cxx.o
@@ -456,7 +456,7 @@ testUVRAII.o: testUVRAII.cxx.o
 
 # target to build an object file
 testUVRAII.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUVRAII.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUVRAII.cxx.o
 .PHONY : testUVRAII.cxx.o
 
 testUVRAII.i: testUVRAII.cxx.i
@@ -465,7 +465,7 @@ testUVRAII.i: testUVRAII.cxx.i
 
 # target to preprocess a source file
 testUVRAII.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUVRAII.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUVRAII.cxx.i
 .PHONY : testUVRAII.cxx.i
 
 testUVRAII.s: testUVRAII.cxx.s
@@ -474,7 +474,7 @@ testUVRAII.s: testUVRAII.cxx.s
 
 # target to generate assembly for a file
 testUVRAII.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUVRAII.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUVRAII.cxx.s
 .PHONY : testUVRAII.cxx.s
 
 testXMLParser.o: testXMLParser.cxx.o
@@ -483,7 +483,7 @@ testXMLParser.o: testXMLParser.cxx.o
 
 # target to build an object file
 testXMLParser.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLParser.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLParser.cxx.o
 .PHONY : testXMLParser.cxx.o
 
 testXMLParser.i: testXMLParser.cxx.i
@@ -492,7 +492,7 @@ testXMLParser.i: testXMLParser.cxx.i
 
 # target to preprocess a source file
 testXMLParser.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLParser.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLParser.cxx.i
 .PHONY : testXMLParser.cxx.i
 
 testXMLParser.s: testXMLParser.cxx.s
@@ -501,7 +501,7 @@ testXMLParser.s: testXMLParser.cxx.s
 
 # target to generate assembly for a file
 testXMLParser.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLParser.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLParser.cxx.s
 .PHONY : testXMLParser.cxx.s
 
 testXMLSafe.o: testXMLSafe.cxx.o
@@ -510,7 +510,7 @@ testXMLSafe.o: testXMLSafe.cxx.o
 
 # target to build an object file
 testXMLSafe.cxx.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLSafe.cxx.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLSafe.cxx.o
 .PHONY : testXMLSafe.cxx.o
 
 testXMLSafe.i: testXMLSafe.cxx.i
@@ -519,7 +519,7 @@ testXMLSafe.i: testXMLSafe.cxx.i
 
 # target to preprocess a source file
 testXMLSafe.cxx.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLSafe.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLSafe.cxx.i
 .PHONY : testXMLSafe.cxx.i
 
 testXMLSafe.s: testXMLSafe.cxx.s
@@ -528,7 +528,7 @@ testXMLSafe.s: testXMLSafe.cxx.s
 
 # target to generate assembly for a file
 testXMLSafe.cxx.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLSafe.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/build.make Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLSafe.cxx.s
 .PHONY : testXMLSafe.cxx.s
 
 # Help Target
@@ -593,6 +593,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

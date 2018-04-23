@@ -42,7 +42,7 @@ try_and_print(OS_RELEASE)
 try_and_print(OS_VERSION)
 try_and_print(OS_PLATFORM)
 
-include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/CheckCMakeTest.cmake")
+include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/CheckCMakeTest.cmake")
 
 check_cmake_test(CMakeHostSystemInformation
 	BadArg1

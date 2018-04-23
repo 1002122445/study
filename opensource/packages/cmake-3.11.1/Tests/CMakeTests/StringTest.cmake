@@ -49,7 +49,7 @@ set(TIMESTAMP-MonthWeekNames-STDERR "~[^%]+;[^%]+~")
 set(TIMESTAMP-UnixTime-RESULT 0)
 set(TIMESTAMP-UnixTime-STDERR "~[0-9]+~")
 
-include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/CheckCMakeTest.cmake")
+include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/CheckCMakeTest.cmake")
 check_cmake_test(String
   MD5-BadArg1
   MD5-BadArg2
@@ -80,10 +80,10 @@ check_cmake_test(String
 
 # Execute each test listed in StringTestScript.cmake:
 #
-set(scriptname "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/StringTestScript.cmake")
+set(scriptname "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/StringTestScript.cmake")
 set(number_of_tests_expected 70)
 
-include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/ExecuteScriptTests.cmake")
+include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/ExecuteScriptTests.cmake")
 execute_all_script_tests(${scriptname} number_of_tests_executed)
 
 string(TIMESTAMP timestamp "[%Y-%m-%d %H:%M:%S] UTC %s" UTC)

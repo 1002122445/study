@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -138,7 +138,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -149,7 +149,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/proj/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/project/study/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/CMakeFiles/progress.marks
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/CMakeFiles/progress.marks
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/clean
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule
 .PHONY : Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ LIBCURL: Utilities/cmcurl/CMakeFiles/LIBCURL.dir/rule
 
 # fast build rule for target.
 LIBCURL/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build
 .PHONY : LIBCURL/fast
 
 curltest.o: curltest.c.o
@@ -210,7 +210,7 @@ curltest.o: curltest.c.o
 
 # target to build an object file
 curltest.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.o
 .PHONY : curltest.c.o
 
 curltest.i: curltest.c.i
@@ -219,7 +219,7 @@ curltest.i: curltest.c.i
 
 # target to preprocess a source file
 curltest.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.i
 .PHONY : curltest.c.i
 
 curltest.s: curltest.c.s
@@ -228,7 +228,7 @@ curltest.s: curltest.c.s
 
 # target to generate assembly for a file
 curltest.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmcurl/CMakeFiles/LIBCURL.dir/build.make Utilities/cmcurl/CMakeFiles/LIBCURL.dir/curltest.c.s
 .PHONY : curltest.c.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

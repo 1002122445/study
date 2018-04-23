@@ -1,8 +1,8 @@
-# Install script for directory: /home/proj/opensource/packages/cmake-3.11.1/Auxiliary
+# Install script for directory: /home/project/study/opensource/packages/cmake-3.11.1/Auxiliary
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/proj/opensource")
+  set(CMAKE_INSTALL_PREFIX "/home/project/study/opensource")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,22 +39,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake-3.11/editors/vim" TYPE DIRECTORY FILES
-    "/home/proj/opensource/packages/cmake-3.11.1/Auxiliary/vim/indent"
-    "/home/proj/opensource/packages/cmake-3.11.1/Auxiliary/vim/syntax"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/vim/indent"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/vim/syntax"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake-3.11/editors/emacs" TYPE FILE FILES "/home/proj/opensource/packages/cmake-3.11.1/Auxiliary/cmake-mode.el")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake-3.11/editors/emacs" TYPE FILE FILES "/home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/cmake-mode.el")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aclocal" TYPE FILE FILES "/home/proj/opensource/packages/cmake-3.11.1/Auxiliary/cmake.m4")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aclocal" TYPE FILE FILES "/home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/cmake.m4")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/proj/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Auxiliary/bash-completion/cmake_install.cmake")
 
 endif()
 

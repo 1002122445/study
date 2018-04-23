@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++1y
 
 CXX_DEFINES = -DCURL_STATICLIB -DLIBARCHIVE_STATIC
 
-CXX_INCLUDES = -I/home/proj/opensource/packages/cmake-3.11.1/Utilities -I/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib -I/home/proj/opensource/packages/cmake-3.11.1/Source 
+CXX_INCLUDES = -I/home/project/study/opensource/packages/cmake-3.11.1/Utilities -I/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib -I/home/project/study/opensource/packages/cmake-3.11.1/Source 
 

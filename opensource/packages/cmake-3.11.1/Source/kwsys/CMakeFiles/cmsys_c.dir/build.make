@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # Include any dependencies generated for this target.
 include Source/kwsys/CMakeFiles/cmsys_c.dir/depend.make
@@ -59,94 +59,94 @@ include Source/kwsys/CMakeFiles/cmsys_c.dir/flags.make
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/ProcessUNIX.c.o: Source/kwsys/CMakeFiles/cmsys_c.dir/flags.make
 Source/kwsys/CMakeFiles/cmsys_c.dir/ProcessUNIX.c.o: Source/kwsys/ProcessUNIX.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/ProcessUNIX.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -o CMakeFiles/cmsys_c.dir/ProcessUNIX.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/ProcessUNIX.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/ProcessUNIX.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -o CMakeFiles/cmsys_c.dir/ProcessUNIX.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/ProcessUNIX.c
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/ProcessUNIX.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cmsys_c.dir/ProcessUNIX.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -E /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/ProcessUNIX.c > CMakeFiles/cmsys_c.dir/ProcessUNIX.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -E /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/ProcessUNIX.c > CMakeFiles/cmsys_c.dir/ProcessUNIX.c.i
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/ProcessUNIX.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cmsys_c.dir/ProcessUNIX.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -S /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/ProcessUNIX.c -o CMakeFiles/cmsys_c.dir/ProcessUNIX.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -S /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/ProcessUNIX.c -o CMakeFiles/cmsys_c.dir/ProcessUNIX.c.s
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/Base64.c.o: Source/kwsys/CMakeFiles/cmsys_c.dir/flags.make
 Source/kwsys/CMakeFiles/cmsys_c.dir/Base64.c.o: Source/kwsys/Base64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/Base64.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmsys_c.dir/Base64.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Base64.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/Base64.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmsys_c.dir/Base64.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Base64.c
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/Base64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cmsys_c.dir/Base64.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Base64.c > CMakeFiles/cmsys_c.dir/Base64.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Base64.c > CMakeFiles/cmsys_c.dir/Base64.c.i
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/Base64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cmsys_c.dir/Base64.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Base64.c -o CMakeFiles/cmsys_c.dir/Base64.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Base64.c -o CMakeFiles/cmsys_c.dir/Base64.c.s
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/EncodingC.c.o: Source/kwsys/CMakeFiles/cmsys_c.dir/flags.make
 Source/kwsys/CMakeFiles/cmsys_c.dir/EncodingC.c.o: Source/kwsys/EncodingC.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/EncodingC.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) -DKWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8 $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmsys_c.dir/EncodingC.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/EncodingC.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/EncodingC.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) -DKWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8 $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmsys_c.dir/EncodingC.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/EncodingC.c
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/EncodingC.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cmsys_c.dir/EncodingC.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) -DKWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8 $(C_INCLUDES) $(C_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/EncodingC.c > CMakeFiles/cmsys_c.dir/EncodingC.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) -DKWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8 $(C_INCLUDES) $(C_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/EncodingC.c > CMakeFiles/cmsys_c.dir/EncodingC.c.i
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/EncodingC.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cmsys_c.dir/EncodingC.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) -DKWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8 $(C_INCLUDES) $(C_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/EncodingC.c -o CMakeFiles/cmsys_c.dir/EncodingC.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) -DKWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8 $(C_INCLUDES) $(C_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/EncodingC.c -o CMakeFiles/cmsys_c.dir/EncodingC.c.s
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/MD5.c.o: Source/kwsys/CMakeFiles/cmsys_c.dir/flags.make
 Source/kwsys/CMakeFiles/cmsys_c.dir/MD5.c.o: Source/kwsys/MD5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/MD5.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmsys_c.dir/MD5.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/MD5.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmsys_c.dir/MD5.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.c
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/MD5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cmsys_c.dir/MD5.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.c > CMakeFiles/cmsys_c.dir/MD5.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.c > CMakeFiles/cmsys_c.dir/MD5.c.i
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/MD5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cmsys_c.dir/MD5.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.c -o CMakeFiles/cmsys_c.dir/MD5.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/MD5.c -o CMakeFiles/cmsys_c.dir/MD5.c.s
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/Terminal.c.o: Source/kwsys/CMakeFiles/cmsys_c.dir/flags.make
 Source/kwsys/CMakeFiles/cmsys_c.dir/Terminal.c.o: Source/kwsys/Terminal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/Terminal.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmsys_c.dir/Terminal.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/Terminal.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cmsys_c.dir/Terminal.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.c
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/Terminal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cmsys_c.dir/Terminal.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.c > CMakeFiles/cmsys_c.dir/Terminal.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.c > CMakeFiles/cmsys_c.dir/Terminal.c.i
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/Terminal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cmsys_c.dir/Terminal.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.c -o CMakeFiles/cmsys_c.dir/Terminal.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Terminal.c -o CMakeFiles/cmsys_c.dir/Terminal.c.s
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/System.c.o: Source/kwsys/CMakeFiles/cmsys_c.dir/flags.make
 Source/kwsys/CMakeFiles/cmsys_c.dir/System.c.o: Source/kwsys/System.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/System.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -o CMakeFiles/cmsys_c.dir/System.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/System.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/System.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -o CMakeFiles/cmsys_c.dir/System.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/System.c
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/System.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cmsys_c.dir/System.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -E /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/System.c > CMakeFiles/cmsys_c.dir/System.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -E /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/System.c > CMakeFiles/cmsys_c.dir/System.c.i
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/System.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cmsys_c.dir/System.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -S /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/System.c -o CMakeFiles/cmsys_c.dir/System.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1 -S /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/System.c -o CMakeFiles/cmsys_c.dir/System.c.s
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/String.c.o: Source/kwsys/CMakeFiles/cmsys_c.dir/flags.make
 Source/kwsys/CMakeFiles/cmsys_c.dir/String.c.o: Source/kwsys/String.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/String.c.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_STRING_C -o CMakeFiles/cmsys_c.dir/String.c.o   -c /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/String.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/String.c.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_STRING_C -o CMakeFiles/cmsys_c.dir/String.c.o   -c /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/String.c
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/String.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cmsys_c.dir/String.c.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_STRING_C -E /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/String.c > CMakeFiles/cmsys_c.dir/String.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_STRING_C -E /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/String.c > CMakeFiles/cmsys_c.dir/String.c.i
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/String.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cmsys_c.dir/String.c.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_STRING_C -S /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/String.c -o CMakeFiles/cmsys_c.dir/String.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -DKWSYS_STRING_C -S /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/String.c -o CMakeFiles/cmsys_c.dir/String.c.s
 
 # Object files for target cmsys_c
 cmsys_c_OBJECTS = \
@@ -170,9 +170,9 @@ Source/kwsys/libcmsys_c.a: Source/kwsys/CMakeFiles/cmsys_c.dir/System.c.o
 Source/kwsys/libcmsys_c.a: Source/kwsys/CMakeFiles/cmsys_c.dir/String.c.o
 Source/kwsys/libcmsys_c.a: Source/kwsys/CMakeFiles/cmsys_c.dir/build.make
 Source/kwsys/libcmsys_c.a: Source/kwsys/CMakeFiles/cmsys_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libcmsys_c.a"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && $(CMAKE_COMMAND) -P CMakeFiles/cmsys_c.dir/cmake_clean_target.cmake
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmsys_c.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libcmsys_c.a"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && $(CMAKE_COMMAND) -P CMakeFiles/cmsys_c.dir/cmake_clean_target.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmsys_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Source/kwsys/CMakeFiles/cmsys_c.dir/build: Source/kwsys/libcmsys_c.a
@@ -180,10 +180,10 @@ Source/kwsys/CMakeFiles/cmsys_c.dir/build: Source/kwsys/libcmsys_c.a
 .PHONY : Source/kwsys/CMakeFiles/cmsys_c.dir/build
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys && $(CMAKE_COMMAND) -P CMakeFiles/cmsys_c.dir/cmake_clean.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys && $(CMAKE_COMMAND) -P CMakeFiles/cmsys_c.dir/cmake_clean.cmake
 .PHONY : Source/kwsys/CMakeFiles/cmsys_c.dir/clean
 
 Source/kwsys/CMakeFiles/cmsys_c.dir/depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsys_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsys_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Source/kwsys/CMakeFiles/cmsys_c.dir/depend
 

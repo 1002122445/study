@@ -12,7 +12,7 @@ set(notice_exceptions
   )
 
 # Load the list of modules to check.
-set(dir "/home/proj/opensource/packages/cmake-3.11.1/Modules")
+set(dir "/home/project/study/opensource/packages/cmake-3.11.1/Modules")
 file(GLOB all_modules RELATIVE "${dir}" "${dir}/*.cmake")
 list(REMOVE_ITEM all_modules ${notice_exceptions})
 

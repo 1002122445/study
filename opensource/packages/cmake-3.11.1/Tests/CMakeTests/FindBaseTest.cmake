@@ -1,4 +1,4 @@
-set(MY_SOURCE_DIR "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests")
+set(MY_SOURCE_DIR "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests")
 
 # The find_* commands do path normalization so we should do so too
 # before comparing results.

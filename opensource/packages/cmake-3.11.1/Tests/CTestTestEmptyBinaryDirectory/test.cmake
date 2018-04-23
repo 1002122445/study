@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 2.8.12)
 
 set(CTEST_RUN_CURRENT_SCRIPT 0)
 
-set(CTEST_SOURCE_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestTestEmptyBinaryDirectory")
-set(CTEST_BINARY_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestTestEmptyBinaryDirectory")
+set(CTEST_SOURCE_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestTestEmptyBinaryDirectory")
+set(CTEST_BINARY_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestTestEmptyBinaryDirectory")
 
 # make sure ctest does not remove directories without a CMakeCache.txt in it
 set(EMPTY_BINARY_DIR "${CTEST_BINARY_DIRECTORY}/empty_binary_dir")

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # Include any dependencies generated for this target.
 include Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/depend.make
@@ -59,16 +59,16 @@ include Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/flags.make
 
 Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/ret0.cxx.o: Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/flags.make
 Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/ret0.cxx.o: Tests/CMakeLib/PseudoMemcheck/ret0.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/ret0.cxx.o"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pseudo_purify.dir/ret0.cxx.o -c /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/ret0.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/ret0.cxx.o"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pseudo_purify.dir/ret0.cxx.o -c /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/ret0.cxx
 
 Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/ret0.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pseudo_purify.dir/ret0.cxx.i"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/ret0.cxx > CMakeFiles/pseudo_purify.dir/ret0.cxx.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/ret0.cxx > CMakeFiles/pseudo_purify.dir/ret0.cxx.i
 
 Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/ret0.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pseudo_purify.dir/ret0.cxx.s"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/ret0.cxx -o CMakeFiles/pseudo_purify.dir/ret0.cxx.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/ret0.cxx -o CMakeFiles/pseudo_purify.dir/ret0.cxx.s
 
 # Object files for target pseudo_purify
 pseudo_purify_OBJECTS = \
@@ -88,14 +88,14 @@ Tests/CMakeLib/PseudoMemcheck/purify: Utilities/cmbzip2/libcmbzip2.a
 Tests/CMakeLib/PseudoMemcheck/purify: Utilities/cmcompress/libcmcompress.a
 Tests/CMakeLib/PseudoMemcheck/purify: Utilities/cmcurl/lib/libcmcurl.a
 Tests/CMakeLib/PseudoMemcheck/purify: Utilities/cmzlib/libcmzlib.a
-Tests/CMakeLib/PseudoMemcheck/purify: /usr/local/lib64/libssl.so
-Tests/CMakeLib/PseudoMemcheck/purify: /usr/local/lib64/libcrypto.so
+Tests/CMakeLib/PseudoMemcheck/purify: //lib64/libssl.so
+Tests/CMakeLib/PseudoMemcheck/purify: //lib64/libcrypto.so
 Tests/CMakeLib/PseudoMemcheck/purify: Utilities/cmjsoncpp/libcmjsoncpp.a
 Tests/CMakeLib/PseudoMemcheck/purify: Utilities/cmlibuv/libcmlibuv.a
 Tests/CMakeLib/PseudoMemcheck/purify: Utilities/cmlibrhash/libcmlibrhash.a
 Tests/CMakeLib/PseudoMemcheck/purify: Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/proj/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable purify"
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pseudo_purify.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable purify"
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pseudo_purify.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/build: Tests/CMakeLib/PseudoMemcheck/purify
@@ -103,10 +103,10 @@ Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/build: Tests/CMakeLib
 .PHONY : Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/build
 
 Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && $(CMAKE_COMMAND) -P CMakeFiles/pseudo_purify.dir/cmake_clean.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck && $(CMAKE_COMMAND) -P CMakeFiles/pseudo_purify.dir/cmake_clean.cmake
 .PHONY : Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/clean
 
 Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck /home/proj/opensource/packages/cmake-3.11.1 /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck /home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck /home/project/study/opensource/packages/cmake-3.11.1 /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck /home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Tests/CMakeLib/PseudoMemcheck/CMakeFiles/pseudo_purify.dir/depend
 

@@ -6,5 +6,5 @@ C_FLAGS =   -std=gnu99
 
 C_DEFINES = -DCURL_STATICLIB -D_FILE_OFFSET_BITS=64
 
-C_INCLUDES = -I/home/proj/opensource/packages/cmake-3.11.1/Utilities 
+C_INCLUDES = -I/home/project/study/opensource/packages/cmake-3.11.1/Utilities 
 

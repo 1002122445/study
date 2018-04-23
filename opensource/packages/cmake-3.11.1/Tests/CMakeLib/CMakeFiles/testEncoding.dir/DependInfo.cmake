@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/testEncoding.cxx" "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/CMakeFiles/testEncoding.dir/testEncoding.cxx.o"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/testEncoding.cxx" "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/CMakeFiles/testEncoding.dir/testEncoding.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,7 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsys.dir/DependInfo.cmake"
+  "/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/CMakeFiles/cmsys.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

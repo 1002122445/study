@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 2.4)
 
 # Settings:
-set(CTEST_DASHBOARD_ROOT                "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestTest")
+set(CTEST_DASHBOARD_ROOT                "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestTest")
 set(CTEST_SITE                          "localhost.localdomain")
 set(CTEST_BUILD_NAME                    "CTestTest-Linux-g++-VerboseOutput")
 
-set(CTEST_SOURCE_DIRECTORY              "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestTestVerboseOutput")
-set(CTEST_BINARY_DIRECTORY              "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestTestVerboseOutput")
+set(CTEST_SOURCE_DIRECTORY              "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestTestVerboseOutput")
+set(CTEST_BINARY_DIRECTORY              "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestTestVerboseOutput")
 set(CTEST_CMAKE_GENERATOR               "Unix Makefiles")
 set(CTEST_CMAKE_GENERATOR_PLATFORM      "")
 set(CTEST_CMAKE_GENERATOR_TOOLSET       "")

@@ -1,14 +1,14 @@
-if(NOT EXISTS "/home/proj/opensource/packages/cmake-3.11.1/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/proj/opensource/packages/cmake-3.11.1/install_manifest.txt\"")
+if(NOT EXISTS "/home/project/study/opensource/packages/cmake-3.11.1/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/project/study/opensource/packages/cmake-3.11.1/install_manifest.txt\"")
 endif()
 
-file(READ "/home/proj/opensource/packages/cmake-3.11.1/install_manifest.txt" files)
+file(READ "/home/project/study/opensource/packages/cmake-3.11.1/install_manifest.txt" files)
 string(REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
   if(EXISTS "$ENV{DESTDIR}${file}")
     exec_program(
-      "/home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+      "/home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
       OUTPUT_VARIABLE rm_out
       RETURN_VALUE rm_retval
       )

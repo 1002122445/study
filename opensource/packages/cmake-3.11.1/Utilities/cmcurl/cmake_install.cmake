@@ -1,8 +1,8 @@
-# Install script for directory: /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl
+# Install script for directory: /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/proj/opensource")
+  set(CMAKE_INSTALL_PREFIX "/home/project/study/opensource")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,12 +38,12 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/doc/cmake-3.11/cmcurl" TYPE FILE FILES "/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/COPYING")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/doc/cmake-3.11/cmcurl" TYPE FILE FILES "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/COPYING")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/lib/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/lib/cmake_install.cmake")
 
 endif()
 

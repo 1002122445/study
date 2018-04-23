@@ -8,7 +8,7 @@ string(APPEND TOP "/CTest UpdateGIT")
 set(UPDATE_EXTRA Updated{module})
 
 # Include code common to all update tests.
-include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestUpdateCommon.cmake")
+include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestUpdateCommon.cmake")
 
 #-----------------------------------------------------------------------------
 # Report git tools in use.
@@ -27,7 +27,7 @@ message("Creating test directory...")
 init_testing()
 
 if(UNIX)
-  set(src "/home/proj/opensource/packages/cmake-3.11.1/Tests")
+  set(src "/home/project/study/opensource/packages/cmake-3.11.1/Tests")
   configure_file(${src}/CTestUpdateGIT.sh.in ${TOP}/git.sh @ONLY)
   set(GIT ${TOP}/git.sh)
 endif()

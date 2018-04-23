@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: ^([ 	]*[#%][ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<cmsys/%>
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Encoding.h.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Encoding.h.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 wchar.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Process.h.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Process.h.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
 cmsys/Directory.hxx
 -
 cmsys/std/vector
 -
 
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/testProcess.c
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/testProcess.c
 kwsysPrivate.h
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPrivate.h
 cmsys/Process.h
 -
 cmsys/Encoding.h
 -
 Encoding.h.in
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Encoding.h.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Encoding.h.in
 Process.h.in
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/Process.h.in
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/Process.h.in
 assert.h
 -
 limits.h

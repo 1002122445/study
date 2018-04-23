@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++1y
 
 CXX_DEFINES = -DKWSYS_NAMESPACE=cmsys
 
-CXX_INCLUDES = -I/home/proj/opensource/packages/cmake-3.11.1/Source -I/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys 
+CXX_INCLUDES = -I/home/project/study/opensource/packages/cmake-3.11.1/Source -I/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys 
 

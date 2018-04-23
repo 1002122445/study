@@ -1,4 +1,4 @@
-include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/CheckCMakeTest.cmake")
+include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/CheckCMakeTest.cmake")
 
 macro(TEST command expected)
   if("x${result}" STREQUAL "x${expected}")

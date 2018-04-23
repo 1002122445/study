@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
+CMAKE_COMMAND = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake
 
 # The command to remove a file.
-RM = /home/proj/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
+RM = /home/project/study/opensource/packages/cmake-3.11.1/Bootstrap.cmk/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_SOURCE_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/proj/opensource/packages/cmake-3.11.1
+CMAKE_BINARY_DIR = /home/project/study/opensource/packages/cmake-3.11.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -116,7 +116,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/proj/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /home/project/study/opensource/packages/cmake-3.11.1/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/proj/opensource/packages/cmake-3.11.1 && /home/proj/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && /home/project/study/opensource/packages/cmake-3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles /home/proj/opensource/packages/cmake-3.11.1/Utilities/cmexpat/CMakeFiles/progress.marks
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/proj/opensource/packages/cmake-3.11.1/CMakeFiles 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles /home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmexpat/CMakeFiles/progress.marks
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/project/study/opensource/packages/cmake-3.11.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/clean
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/preinstall
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Utilities/cmexpat/CMakeFiles/cmexpat.dir/rule:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/CMakeFiles/cmexpat.dir/rule
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 Utilities/cmexpat/CMakeFiles/cmexpat.dir/rule
 .PHONY : Utilities/cmexpat/CMakeFiles/cmexpat.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ cmexpat: Utilities/cmexpat/CMakeFiles/cmexpat.dir/rule
 
 # fast build rule for target.
 cmexpat/fast:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/build
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/build
 .PHONY : cmexpat/fast
 
 lib/loadlibrary.o: lib/loadlibrary.c.o
@@ -210,7 +210,7 @@ lib/loadlibrary.o: lib/loadlibrary.c.o
 
 # target to build an object file
 lib/loadlibrary.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/loadlibrary.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/loadlibrary.c.o
 .PHONY : lib/loadlibrary.c.o
 
 lib/loadlibrary.i: lib/loadlibrary.c.i
@@ -219,7 +219,7 @@ lib/loadlibrary.i: lib/loadlibrary.c.i
 
 # target to preprocess a source file
 lib/loadlibrary.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/loadlibrary.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/loadlibrary.c.i
 .PHONY : lib/loadlibrary.c.i
 
 lib/loadlibrary.s: lib/loadlibrary.c.s
@@ -228,7 +228,7 @@ lib/loadlibrary.s: lib/loadlibrary.c.s
 
 # target to generate assembly for a file
 lib/loadlibrary.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/loadlibrary.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/loadlibrary.c.s
 .PHONY : lib/loadlibrary.c.s
 
 lib/xmlparse.o: lib/xmlparse.c.o
@@ -237,7 +237,7 @@ lib/xmlparse.o: lib/xmlparse.c.o
 
 # target to build an object file
 lib/xmlparse.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlparse.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlparse.c.o
 .PHONY : lib/xmlparse.c.o
 
 lib/xmlparse.i: lib/xmlparse.c.i
@@ -246,7 +246,7 @@ lib/xmlparse.i: lib/xmlparse.c.i
 
 # target to preprocess a source file
 lib/xmlparse.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlparse.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlparse.c.i
 .PHONY : lib/xmlparse.c.i
 
 lib/xmlparse.s: lib/xmlparse.c.s
@@ -255,7 +255,7 @@ lib/xmlparse.s: lib/xmlparse.c.s
 
 # target to generate assembly for a file
 lib/xmlparse.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlparse.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlparse.c.s
 .PHONY : lib/xmlparse.c.s
 
 lib/xmlrole.o: lib/xmlrole.c.o
@@ -264,7 +264,7 @@ lib/xmlrole.o: lib/xmlrole.c.o
 
 # target to build an object file
 lib/xmlrole.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlrole.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlrole.c.o
 .PHONY : lib/xmlrole.c.o
 
 lib/xmlrole.i: lib/xmlrole.c.i
@@ -273,7 +273,7 @@ lib/xmlrole.i: lib/xmlrole.c.i
 
 # target to preprocess a source file
 lib/xmlrole.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlrole.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlrole.c.i
 .PHONY : lib/xmlrole.c.i
 
 lib/xmlrole.s: lib/xmlrole.c.s
@@ -282,7 +282,7 @@ lib/xmlrole.s: lib/xmlrole.c.s
 
 # target to generate assembly for a file
 lib/xmlrole.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlrole.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmlrole.c.s
 .PHONY : lib/xmlrole.c.s
 
 lib/xmltok.o: lib/xmltok.c.o
@@ -291,7 +291,7 @@ lib/xmltok.o: lib/xmltok.c.o
 
 # target to build an object file
 lib/xmltok.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok.c.o
 .PHONY : lib/xmltok.c.o
 
 lib/xmltok.i: lib/xmltok.c.i
@@ -300,7 +300,7 @@ lib/xmltok.i: lib/xmltok.c.i
 
 # target to preprocess a source file
 lib/xmltok.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok.c.i
 .PHONY : lib/xmltok.c.i
 
 lib/xmltok.s: lib/xmltok.c.s
@@ -309,7 +309,7 @@ lib/xmltok.s: lib/xmltok.c.s
 
 # target to generate assembly for a file
 lib/xmltok.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok.c.s
 .PHONY : lib/xmltok.c.s
 
 lib/xmltok_impl.o: lib/xmltok_impl.c.o
@@ -318,7 +318,7 @@ lib/xmltok_impl.o: lib/xmltok_impl.c.o
 
 # target to build an object file
 lib/xmltok_impl.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_impl.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_impl.c.o
 .PHONY : lib/xmltok_impl.c.o
 
 lib/xmltok_impl.i: lib/xmltok_impl.c.i
@@ -327,7 +327,7 @@ lib/xmltok_impl.i: lib/xmltok_impl.c.i
 
 # target to preprocess a source file
 lib/xmltok_impl.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_impl.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_impl.c.i
 .PHONY : lib/xmltok_impl.c.i
 
 lib/xmltok_impl.s: lib/xmltok_impl.c.s
@@ -336,7 +336,7 @@ lib/xmltok_impl.s: lib/xmltok_impl.c.s
 
 # target to generate assembly for a file
 lib/xmltok_impl.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_impl.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_impl.c.s
 .PHONY : lib/xmltok_impl.c.s
 
 lib/xmltok_ns.o: lib/xmltok_ns.c.o
@@ -345,7 +345,7 @@ lib/xmltok_ns.o: lib/xmltok_ns.c.o
 
 # target to build an object file
 lib/xmltok_ns.c.o:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_ns.c.o
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_ns.c.o
 .PHONY : lib/xmltok_ns.c.o
 
 lib/xmltok_ns.i: lib/xmltok_ns.c.i
@@ -354,7 +354,7 @@ lib/xmltok_ns.i: lib/xmltok_ns.c.i
 
 # target to preprocess a source file
 lib/xmltok_ns.c.i:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_ns.c.i
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_ns.c.i
 .PHONY : lib/xmltok_ns.c.i
 
 lib/xmltok_ns.s: lib/xmltok_ns.c.s
@@ -363,7 +363,7 @@ lib/xmltok_ns.s: lib/xmltok_ns.c.s
 
 # target to generate assembly for a file
 lib/xmltok_ns.c.s:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_ns.c.s
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(MAKE) -f Utilities/cmexpat/CMakeFiles/cmexpat.dir/build.make Utilities/cmexpat/CMakeFiles/cmexpat.dir/lib/xmltok_ns.c.s
 .PHONY : lib/xmltok_ns.c.s
 
 # Help Target
@@ -411,6 +411,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/proj/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/project/study/opensource/packages/cmake-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

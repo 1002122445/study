@@ -1,9 +1,9 @@
 # Execute each test listed in:
 #
-set(scriptname "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/MathTestScript.cmake")
+set(scriptname "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/MathTestScript.cmake")
 set(number_of_tests_expected 4)
 
-include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/ExecuteScriptTests.cmake")
+include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/ExecuteScriptTests.cmake")
 execute_all_script_tests(${scriptname} number_of_tests_executed)
 
 # And verify that number_of_tests_executed is at least as many as we know

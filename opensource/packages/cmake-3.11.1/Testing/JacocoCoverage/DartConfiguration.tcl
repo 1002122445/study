@@ -4,5 +4,5 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/proj/opensource/packages/cmake-3.11.1/Testing/JacocoCoverage
-BuildDirectory: /home/proj/opensource/packages/cmake-3.11.1/Testing/JacocoCoverage
+SourceDirectory: /home/project/study/opensource/packages/cmake-3.11.1/Testing/JacocoCoverage
+BuildDirectory: /home/project/study/opensource/packages/cmake-3.11.1/Testing/JacocoCoverage

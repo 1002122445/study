@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curltest.c
 curl/curl.h
-/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curl/curl.h
+/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmcurl/curl/curl.h
 stdlib.h
 -
 string.h

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.12)
 set(CTEST_PROJECT_NAME "TestProject")
-set(CTEST_SOURCE_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestCoverageCollectGCOV/TestProject")
-set(CTEST_BINARY_DIRECTORY "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestCoverageCollectGCOV/TestProject")
+set(CTEST_SOURCE_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestCoverageCollectGCOV/TestProject")
+set(CTEST_BINARY_DIRECTORY "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestCoverageCollectGCOV/TestProject")
 set(CTEST_CMAKE_GENERATOR "Unix Makefiles")
 
 ctest_empty_binary_directory(${CTEST_BINARY_DIRECTORY})
@@ -26,7 +26,7 @@ ctest_coverage_collect_gcov(
   SOURCE "${CTEST_SOURCE_DIRECTORY}"
   BUILD "${CTEST_BINARY_DIRECTORY}"
   GCOV_COMMAND "${CMAKE_COMMAND}"
-  GCOV_OPTIONS -P "/home/proj/opensource/packages/cmake-3.11.1/Tests/CTestCoverageCollectGCOV/fakegcov.cmake")
+  GCOV_OPTIONS -P "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CTestCoverageCollectGCOV/fakegcov.cmake")
 
 execute_process(COMMAND
   ${CMAKE_COMMAND} -E tar tf ${tar_file}

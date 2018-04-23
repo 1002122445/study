@@ -1,6 +1,6 @@
 execute_process(
   COMMAND ${CMAKE_COMMAND} -P
-          "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/MessageTestScript.cmake"
+          "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/MessageTestScript.cmake"
   OUTPUT_VARIABLE out
   ERROR_VARIABLE err
   RESULT_VARIABLE result

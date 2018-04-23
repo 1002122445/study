@@ -1,19 +1,19 @@
 Checking for GNU toolchain
 Try: gcc
-Line: gcc  cmake_bootstrap_18268_test.c -o cmake_bootstrap_18268_test
+Line: gcc  cmake_bootstrap_12792_test.c -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 int main() { return 0; }
 ------------------------------------------
 Test succeeded
 Try: g++
-Line: g++  cmake_bootstrap_18268_test.cpp -o cmake_bootstrap_18268_test
+Line: g++  cmake_bootstrap_12792_test.cpp -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 int main() { return 0; }
 ------------------------------------------
 Test succeeded
 Checking whether 'gcc   ' works.
 Try: gcc
-Line: gcc    cmake_bootstrap_18268_test.c -o cmake_bootstrap_18268_test
+Line: gcc    cmake_bootstrap_12792_test.c -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 
 #ifdef __cplusplus
@@ -41,7 +41,7 @@ int main(int argc, char* argv[])
 Test succeeded
 Checking whether 'gcc     ' works.
 Try: gcc
-Line: gcc      cmake_bootstrap_18268_test.c -o cmake_bootstrap_18268_test
+Line: gcc      cmake_bootstrap_12792_test.c -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 
 #ifdef __cplusplus
@@ -69,7 +69,7 @@ int main(int argc, char* argv[])
 Test succeeded
 Checking whether 'gcc       ' works.
 Try: gcc
-Line: gcc        cmake_bootstrap_18268_test.c -o cmake_bootstrap_18268_test
+Line: gcc        cmake_bootstrap_12792_test.c -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 
 #ifdef __cplusplus
@@ -97,7 +97,7 @@ int main(int argc, char* argv[])
 Test succeeded
 Checking whether 'g++   ' works.
 Try: g++
-Line: g++    cmake_bootstrap_18268_test.cxx -o cmake_bootstrap_18268_test
+Line: g++    cmake_bootstrap_12792_test.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 
 #include <iostream>
@@ -132,27 +132,27 @@ int main()
 
 ------------------------------------------
 In file included from /usr/include/c++/4.8.2/unordered_map:35:0,
-                 from cmake_bootstrap_18268_test.cxx:4:
+                 from cmake_bootstrap_12792_test.cxx:4:
 /usr/include/c++/4.8.2/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
  #error This file requires compiler and library support for the \
   ^
-cmake_bootstrap_18268_test.cxx:7:2: error: #error "Compiler is not in a mode aware of C++11."
+cmake_bootstrap_12792_test.cxx:7:2: error: #error "Compiler is not in a mode aware of C++11."
  #error "Compiler is not in a mode aware of C++11."
   ^
-cmake_bootstrap_18268_test.cxx:23:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+cmake_bootstrap_12792_test.cxx:23:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
    int Member = 1;
                 ^
-cmake_bootstrap_18268_test.cxx: In function ‘int main()’:
-cmake_bootstrap_18268_test.cxx:27:14: error: ‘c’ does not name a type
+cmake_bootstrap_12792_test.cxx: In function ‘int main()’:
+cmake_bootstrap_12792_test.cxx:27:14: error: ‘c’ does not name a type
    auto const c = std::unique_ptr<Class>(new Class);
               ^
-cmake_bootstrap_18268_test.cxx:28:16: error: ‘c’ was not declared in this scope
+cmake_bootstrap_12792_test.cxx:28:16: error: ‘c’ was not declared in this scope
    std::cout << c->Get() << std::endl;
                 ^
 Test failed to compile
 Checking whether 'g++  -std=gnu++1z ' works.
 Try: g++
-Line: g++  -std=gnu++1z  cmake_bootstrap_18268_test.cxx -o cmake_bootstrap_18268_test
+Line: g++  -std=gnu++1z  cmake_bootstrap_12792_test.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 
 #include <iostream>
@@ -190,7 +190,7 @@ g++: error: unrecognized command line option ‘-std=gnu++1z’
 Test failed to compile
 Checking whether 'g++   ' works.
 Try: g++
-Line: g++    cmake_bootstrap_18268_test.cxx -o cmake_bootstrap_18268_test
+Line: g++    cmake_bootstrap_12792_test.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 
 #include <iostream>
@@ -225,27 +225,27 @@ int main()
 
 ------------------------------------------
 In file included from /usr/include/c++/4.8.2/unordered_map:35:0,
-                 from cmake_bootstrap_18268_test.cxx:4:
+                 from cmake_bootstrap_12792_test.cxx:4:
 /usr/include/c++/4.8.2/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
  #error This file requires compiler and library support for the \
   ^
-cmake_bootstrap_18268_test.cxx:7:2: error: #error "Compiler is not in a mode aware of C++11."
+cmake_bootstrap_12792_test.cxx:7:2: error: #error "Compiler is not in a mode aware of C++11."
  #error "Compiler is not in a mode aware of C++11."
   ^
-cmake_bootstrap_18268_test.cxx:23:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+cmake_bootstrap_12792_test.cxx:23:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
    int Member = 1;
                 ^
-cmake_bootstrap_18268_test.cxx: In function ‘int main()’:
-cmake_bootstrap_18268_test.cxx:27:14: error: ‘c’ does not name a type
+cmake_bootstrap_12792_test.cxx: In function ‘int main()’:
+cmake_bootstrap_12792_test.cxx:27:14: error: ‘c’ does not name a type
    auto const c = std::unique_ptr<Class>(new Class);
               ^
-cmake_bootstrap_18268_test.cxx:28:16: error: ‘c’ was not declared in this scope
+cmake_bootstrap_12792_test.cxx:28:16: error: ‘c’ was not declared in this scope
    std::cout << c->Get() << std::endl;
                 ^
 Test failed to compile
 Checking whether 'g++  -std=gnu++14 ' works.
 Try: g++
-Line: g++  -std=gnu++14  cmake_bootstrap_18268_test.cxx -o cmake_bootstrap_18268_test
+Line: g++  -std=gnu++14  cmake_bootstrap_12792_test.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 
 #include <iostream>
@@ -283,7 +283,7 @@ g++: error: unrecognized command line option ‘-std=gnu++14’
 Test failed to compile
 Checking whether 'g++  -std=gnu++1y ' works.
 Try: g++
-Line: g++  -std=gnu++1y  cmake_bootstrap_18268_test.cxx -o cmake_bootstrap_18268_test
+Line: g++  -std=gnu++1y  cmake_bootstrap_12792_test.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 
 #include <iostream>
@@ -321,7 +321,7 @@ int main()
 Test succeeded
 Checking whether 'g++  -std=gnu++1y    ' works.
 Try: g++
-Line: g++  -std=gnu++1y     cmake_bootstrap_18268_test.cxx -o cmake_bootstrap_18268_test
+Line: g++  -std=gnu++1y     cmake_bootstrap_12792_test.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 
 #include <iostream>
@@ -362,7 +362,7 @@ Try: gmake
 1
 gmake works
 Try: g++
-Line: g++  -std=gnu++1y      -DTEST_KWSYS_CXX_HAS_SETENV /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_18268_test
+Line: g++  -std=gnu++1y      -DTEST_KWSYS_CXX_HAS_SETENV /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */
@@ -744,7 +744,7 @@ int main()
 ------------------------------------------
 Test succeeded
 Try: g++
-Line: g++  -std=gnu++1y      -DTEST_KWSYS_CXX_HAS_UNSETENV /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_18268_test
+Line: g++  -std=gnu++1y      -DTEST_KWSYS_CXX_HAS_UNSETENV /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */
@@ -1126,7 +1126,7 @@ int main()
 ------------------------------------------
 Test succeeded
 Try: g++
-Line: g++  -std=gnu++1y      -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_18268_test
+Line: g++  -std=gnu++1y      -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */
@@ -1506,13 +1506,13 @@ int main()
 }
 #endif
 ------------------------------------------
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
-/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx:196:13: error: ‘environ’ was not declared in this scope
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx:196:13: error: ‘environ’ was not declared in this scope
    char* e = environ[0];
              ^
 Test failed to compile
 Try: g++
-Line: g++  -std=gnu++1y      -DTEST_KWSYS_STL_HAS_WSTRING /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_18268_test
+Line: g++  -std=gnu++1y      -DTEST_KWSYS_STL_HAS_WSTRING /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */
@@ -1894,7 +1894,7 @@ int main()
 ------------------------------------------
 Test succeeded
 Try: g++
-Line: g++  -std=gnu++1y      -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H /home/proj/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_18268_test
+Line: g++  -std=gnu++1y      -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H /home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_12792_test
 ----------  file   -----------------------
 /* Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
    file Copyright.txt or https://cmake.org/licensing#kwsys for details.  */

@@ -7,10 +7,10 @@ if(CPACK_GENERATOR MATCHES "NSIS")
 
   # set the install/unistall icon used for the installer itself
   # There is a bug in NSI that does not handle full unix paths properly.
-  set(CPACK_NSIS_MUI_ICON "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release\\CMakeLogo.ico")
-  set(CPACK_NSIS_MUI_UNIICON "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release\\CMakeLogo.ico")
+  set(CPACK_NSIS_MUI_ICON "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release\\CMakeLogo.ico")
+  set(CPACK_NSIS_MUI_UNIICON "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release\\CMakeLogo.ico")
   # set the package header icon for MUI
-  set(CPACK_PACKAGE_ICON "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release\\CMakeInstall.bmp")
+  set(CPACK_PACKAGE_ICON "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release\\CMakeInstall.bmp")
   # tell cpack to create links to the doc files
   set(CPACK_NSIS_MENU_LINKS
     "doc/cmake-3.11/html/index.html" "CMake Documentation"
@@ -29,7 +29,7 @@ endif()
 
 # include the cpack options for qt dialog if they exist
 # they might not if qt was not enabled for the build
-include("/home/proj/opensource/packages/cmake-3.11.1/Source/QtDialog/QtDialogCPack.cmake" OPTIONAL)
+include("/home/project/study/opensource/packages/cmake-3.11.1/Source/QtDialog/QtDialogCPack.cmake" OPTIONAL)
 
 if(CPACK_GENERATOR MATCHES "IFW")
 
@@ -38,9 +38,9 @@ if(CPACK_GENERATOR MATCHES "IFW")
   set(CPACK_IFW_PRODUCT_URL "https://cmake.org")
   
   set(CPACK_IFW_PACKAGE_WINDOW_ICON
-    "/home/proj/opensource/packages/cmake-3.11.1/Source/QtDialog/CMakeSetup128.png")
+    "/home/project/study/opensource/packages/cmake-3.11.1/Source/QtDialog/CMakeSetup128.png")
   set(CPACK_IFW_PACKAGE_CONTROL_SCRIPT
-    "/home/proj/opensource/packages/cmake-3.11.1/Source/QtIFW/controlscript.qs")
+    "/home/project/study/opensource/packages/cmake-3.11.1/Source/QtIFW/controlscript.qs")
 
   # Uninstaller configuration
   set(CPACK_IFW_PACKAGE_MAINTENANCE_TOOL_NAME "cmake-maintenance")
@@ -65,13 +65,13 @@ if(CPACK_GENERATOR MATCHES "IFW")
   set(CPACK_IFW_COMPONENT_GROUP_CMAKE_PRIORITY
     "100")
   set(CPACK_IFW_COMPONENT_GROUP_CMAKE_SCRIPT_TEMPLATE
-    "/home/proj/opensource/packages/cmake-3.11.1/Source/QtIFW/installscript.qs.in")
+    "/home/project/study/opensource/packages/cmake-3.11.1/Source/QtIFW/installscript.qs.in")
   set(CPACK_IFW_COMPONENT_GROUP_CMAKE_SCRIPT_GENERATED
-    "/home/proj/opensource/packages/cmake-3.11.1/CMake.qs")
+    "/home/project/study/opensource/packages/cmake-3.11.1/CMake.qs")
   set(CPACK_IFW_COMPONENT_GROUP_CMAKE_LICENSES
-    "CMake Copyright;/home/proj/opensource/packages/cmake-3.11.1/Copyright.txt")
+    "CMake Copyright;/home/project/study/opensource/packages/cmake-3.11.1/Copyright.txt")
   set(CPACK_IFW_COMPONENT_GROUP_CMAKE_SCRIPT
-    "/home/proj/opensource/packages/cmake-3.11.1/CMake.qs")
+    "/home/project/study/opensource/packages/cmake-3.11.1/CMake.qs")
 
 
   # Tools
@@ -145,7 +145,7 @@ if(CPACK_GENERATOR MATCHES "IFW")
   set(CPACK_COMPONENT_CMAKE-GUI_GROUP Dialogs)
   set(CPACK_IFW_COMPONENT_CMAKE-GUI_NAME "QtGUI")
   set(CPACK_IFW_COMPONENT_CMAKE-GUI_SCRIPT
-    "/home/proj/opensource/packages/cmake-3.11.1/CMake.Dialogs.QtGUI.qs")
+    "/home/project/study/opensource/packages/cmake-3.11.1/CMake.Dialogs.QtGUI.qs")
   set(CPACK_IFW_COMPONENT_CMAKE-GUI_VERSION
     "3.11.1")
   
@@ -176,7 +176,7 @@ if(CPACK_GENERATOR MATCHES "IFW")
   set(CPACK_COMPONENT_SPHINX-HTML_GROUP Documentation)
   set(CPACK_IFW_COMPONENT_SPHINX-HTML_NAME "SphinxHTML")
   set(CPACK_IFW_COMPONENT_SPHINX-HTML_SCRIPT
-    "/home/proj/opensource/packages/cmake-3.11.1/CMake.Documentation.SphinxHTML.qs")
+    "/home/project/study/opensource/packages/cmake-3.11.1/CMake.Documentation.SphinxHTML.qs")
   set(CPACK_IFW_COMPONENT_SPHINX-HTML_VERSION
     "3.11.1")
 
@@ -208,7 +208,7 @@ if(CPACK_GENERATOR MATCHES "IFW")
   set(CPACK_COMPONENT_CMAKE-DEVELOPER-REFERENCE-HTML_DISABLED TRUE)
   set(CPACK_IFW_COMPONENT_CMAKE-DEVELOPER-REFERENCE-HTML_NAME "HTML")
   set(CPACK_IFW_COMPONENT_CMAKE-DEVELOPER-REFERENCE-HTML_SCRIPT
-    "/home/proj/opensource/packages/cmake-3.11.1/CMake.DeveloperReference.HTML.qs")
+    "/home/project/study/opensource/packages/cmake-3.11.1/CMake.DeveloperReference.HTML.qs")
   set(CPACK_IFW_COMPONENT_CMAKE-DEVELOPER-REFERENCE-HTML_VERSION
     "3.11.1")
 
@@ -231,9 +231,9 @@ endif()
 
 if("${CPACK_GENERATOR}" STREQUAL "DragNDrop")
   set(CPACK_DMG_BACKGROUND_IMAGE
-      "/home/proj/opensource/packages/cmake-3.11.1/Packaging/CMakeDMGBackground.tif")
+      "/home/project/study/opensource/packages/cmake-3.11.1/Packaging/CMakeDMGBackground.tif")
   set(CPACK_DMG_DS_STORE_SETUP_SCRIPT
-      "/home/proj/opensource/packages/cmake-3.11.1/Packaging/CMakeDMGSetup.scpt")
+      "/home/project/study/opensource/packages/cmake-3.11.1/Packaging/CMakeDMGSetup.scpt")
 endif()
 
 if("${CPACK_GENERATOR}" STREQUAL "WIX")
@@ -266,7 +266,7 @@ if("${CPACK_GENERATOR}" STREQUAL "WIX")
   )
 
   set(CPACK_WIX_PRODUCT_ICON
-    "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/CMakeLogo.ico"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/CMakeLogo.ico"
   )
 
   set_property(INSTALL "doc/cmake-3.11/html/index.html" PROPERTY
@@ -280,22 +280,22 @@ if("${CPACK_GENERATOR}" STREQUAL "WIX")
   set(CPACK_WIX_LIGHT_EXTRA_FLAGS "-dcl:high")
 
   set(CPACK_WIX_UI_BANNER
-    "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/ui_banner.jpg"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/ui_banner.jpg"
   )
 
   set(CPACK_WIX_UI_DIALOG
-    "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/ui_dialog.jpg"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/ui_dialog.jpg"
   )
 
   set(CPACK_WIX_EXTRA_SOURCES
-    "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/install_dir.wxs"
-    "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/cmake_extra_dialog.wxs"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/install_dir.wxs"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/cmake_extra_dialog.wxs"
   )
 
   set(_WIX_CUSTOM_ACTION_ENABLED "FALSE")
   if(_WIX_CUSTOM_ACTION_ENABLED)
     list(APPEND CPACK_WIX_EXTRA_SOURCES
-      "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/cmake_nsis_overwrite_dialog.wxs"
+      "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/cmake_nsis_overwrite_dialog.wxs"
       )
     list(APPEND CPACK_WIX_CANDLE_EXTRA_FLAGS -dCHECK_NSIS=1)
 
@@ -308,28 +308,28 @@ if("${CPACK_GENERATOR}" STREQUAL "WIX")
       endif()
 
       list(APPEND CPACK_WIX_EXTRA_SOURCES
-        "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/custom_action_dll-${_WIX_CUSTOM_ACTION_CONFIG}.wxs")
+        "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/custom_action_dll-${_WIX_CUSTOM_ACTION_CONFIG}.wxs")
     else()
       list(APPEND CPACK_WIX_EXTRA_SOURCES
-        "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/custom_action_dll.wxs")
+        "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/custom_action_dll.wxs")
     endif()
   endif()
 
   set(CPACK_WIX_UI_REF "CMakeUI_InstallDir")
 
   set(CPACK_WIX_PATCH_FILE
-    "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/patch_path_env.xml"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/patch_path_env.xml"
   )
 
   set(CPACK_WIX_TEMPLATE
-    "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/WIX.template.in"
+    "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/WIX.template.in"
   )
 
   set(BUILD_QtDialog "")
 
   if(BUILD_QtDialog)
     list(APPEND CPACK_WIX_PATCH_FILE
-      "/home/proj/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/patch_desktop_shortcut.xml"
+      "/home/project/study/opensource/packages/cmake-3.11.1/Utilities/Release/WiX/patch_desktop_shortcut.xml"
       )
     list(APPEND CPACK_WIX_CANDLE_EXTRA_FLAGS -dBUILD_QtDialog=1)
   endif()

@@ -6,8 +6,8 @@ set(CTEST_SITE                          "localhost.localdomain")
 set(CTEST_BUILD_NAME                    "Linux-g++")
 
 # ---
-set(CTEST_SOURCE_DIRECTORY              "/home/proj/opensource/packages/cmake-3.11.1")
-set(CTEST_BINARY_DIRECTORY              "/home/proj/opensource/packages/cmake-3.11.1")
+set(CTEST_SOURCE_DIRECTORY              "/home/project/study/opensource/packages/cmake-3.11.1")
+set(CTEST_BINARY_DIRECTORY              "/home/project/study/opensource/packages/cmake-3.11.1")
 set(CTEST_UPDATE_COMMAND                "")
 set(CTEST_UPDATE_OPTIONS                "")
 set(CTEST_CMAKE_GENERATOR               "Unix Makefiles")

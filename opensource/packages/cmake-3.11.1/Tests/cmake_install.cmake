@@ -1,8 +1,8 @@
-# Install script for directory: /home/proj/opensource/packages/cmake-3.11.1/Tests
+# Install script for directory: /home/project/study/opensource/packages/cmake-3.11.1/Tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/proj/opensource")
+  set(CMAKE_INSTALL_PREFIX "/home/project/study/opensource")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeLib/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeOnly/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Tests/RunCMake/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Tests/FindPackageModeMakefileTest/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Tests/FindThreads/cmake_install.cmake")
-  include("/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeTests/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeLib/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeServerLib/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeOnly/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/RunCMake/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/FindPackageModeMakefileTest/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/FindThreads/cmake_install.cmake")
+  include("/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeTests/cmake_install.cmake")
 
 endif()
 

@@ -7,13 +7,13 @@ C_FLAGS =   -std=gnu99
 
 C_DEFINES = -DKWSYS_NAMESPACE=cmsys
 
-C_INCLUDES = -I/home/proj/opensource/packages/cmake-3.11.1/Source -I/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys 
+C_INCLUDES = -I/home/project/study/opensource/packages/cmake-3.11.1/Source -I/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys 
 
 CXX_FLAGS =   -std=gnu++1y
 
 CXX_DEFINES = -DKWSYS_NAMESPACE=cmsys
 
-CXX_INCLUDES = -I/home/proj/opensource/packages/cmake-3.11.1/Source -I/home/proj/opensource/packages/cmake-3.11.1/Source/kwsys 
+CXX_INCLUDES = -I/home/project/study/opensource/packages/cmake-3.11.1/Source -I/home/project/study/opensource/packages/cmake-3.11.1/Source/kwsys 
 
 # Custom flags: Source/kwsys/CMakeFiles/cmsys.dir/ProcessUNIX.c.o_FLAGS = -DKWSYS_C_HAS_PTRDIFF_T=1 -DKWSYS_C_HAS_SSIZE_T=1 -DKWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC=1
 

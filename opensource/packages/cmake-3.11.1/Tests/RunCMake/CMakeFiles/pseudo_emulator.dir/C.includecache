@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/proj/opensource/packages/cmake-3.11.1/Tests/RunCMake/pseudo_emulator.c
+/home/project/study/opensource/packages/cmake-3.11.1/Tests/RunCMake/pseudo_emulator.c
 stdio.h
 -
 

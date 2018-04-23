@@ -7,7 +7,7 @@ endif()
 
 # Choose a configuration that was built if none is given.
 if(NOT CTEST_CONFIGURATION_TYPE)
-  set(CTEST_CMD "/home/proj/opensource/packages/cmake-3.11.1/bin/ctest")
+  set(CTEST_CMD "/home/project/study/opensource/packages/cmake-3.11.1/bin/ctest")
   get_filename_component(CTEST_DIR "${CTEST_CMD}" PATH)
   get_filename_component(CTEST_EXE "${CTEST_CMD}" NAME)
   foreach(cfg Release Debug MinSizeRel RelWithDebInfo)
@@ -29,5 +29,5 @@ endif()
 if(NOT DEFINED ENV{CTEST_REAL_HOME})
   set(ENV{CTEST_REAL_HOME} "$ENV{HOME}")
 endif()
-set(ENV{HOME} "/home/proj/opensource/packages/cmake-3.11.1/Tests/CMakeFiles/TestHome")
+set(ENV{HOME} "/home/project/study/opensource/packages/cmake-3.11.1/Tests/CMakeFiles/TestHome")
 

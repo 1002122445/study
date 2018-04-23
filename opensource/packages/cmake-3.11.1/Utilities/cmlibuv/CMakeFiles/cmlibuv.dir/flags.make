@@ -6,5 +6,5 @@ C_FLAGS =  -w   -std=gnu99
 
 C_DEFINES = -DCURL_STATICLIB -DLIBARCHIVE_STATIC -D_GNU_SOURCE
 
-C_INCLUDES = -I/home/proj/opensource/packages/cmake-3.11.1/Utilities -I/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/include -I/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/src -I/home/proj/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/src/unix -I/home/proj/opensource/packages/cmake-3.11.1/Source 
+C_INCLUDES = -I/home/project/study/opensource/packages/cmake-3.11.1/Utilities -I/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/include -I/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/src -I/home/project/study/opensource/packages/cmake-3.11.1/Utilities/cmlibuv/src/unix -I/home/project/study/opensource/packages/cmake-3.11.1/Source 
 
