@@ -1,3 +1,0 @@
-/home/project/study/build/CMakeFiles/rebuild_cache.dir
-/home/project/study/build/CMakeFiles/edit_cache.dir
-/home/project/study/build/CMakeFiles/study.dir

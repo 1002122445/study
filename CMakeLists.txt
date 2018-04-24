@@ -4,7 +4,9 @@ MESSAGE("project study")
 MESSAGE(${CMAKE_SOURCE_DIR})
 
 # include
-include(cmake/Package.cmake)
+if(UNIX)
+	include(cmake/Package.cmake)
+endif ()
 
 add_compile_options(-std=c++11)
 

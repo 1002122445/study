@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/study.dir/wiseos/common/database.cc.o CMakeFiles/study.dir/wiseos/common/threadpool.cc.o CMakeFiles/study.dir/wiseos/main.cc.o  -o study  -L/home/project/study/opensource/lib 
